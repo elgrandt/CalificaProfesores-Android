@@ -12,8 +12,8 @@ android {
         applicationId "com.gnd.calificaprofesores"
         minSdkVersion 21
         targetSdkVersion 28
-        versionCode 11
-        versionName "1.5"
+        versionCode 13
+        versionName "1.6"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {

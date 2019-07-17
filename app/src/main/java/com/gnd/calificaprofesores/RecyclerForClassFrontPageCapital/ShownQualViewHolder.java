@@ -7,6 +7,8 @@ import android.widget.ProgressBar;
 import com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar;
 import com.gnd.calificaprofesores.R;
 
+/** layout_scores.xml **/
+
 public class ShownQualViewHolder extends RecyclerView.ViewHolder {
     View mView;
     public ShownQualViewHolder(View view){

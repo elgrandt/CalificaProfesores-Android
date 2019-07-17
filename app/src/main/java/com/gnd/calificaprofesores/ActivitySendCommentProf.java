@@ -248,4 +248,9 @@ public class ActivitySendCommentProf extends AppCompatActivity {
         }
         return good;
     }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        menuManager.closeDrawer();
+    }
 }

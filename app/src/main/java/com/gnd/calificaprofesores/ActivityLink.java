@@ -332,4 +332,9 @@ public class ActivityLink extends AppCompatActivity {
         );
         startActivity(intent);
     }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        menuManager.closeDrawer();
+    }
 }

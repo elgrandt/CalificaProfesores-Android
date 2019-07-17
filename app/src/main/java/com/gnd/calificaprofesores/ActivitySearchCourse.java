@@ -205,4 +205,9 @@ public class ActivitySearchCourse extends AppCompatActivity {
         adapter.clear();
         adapter.notifyDataSetChanged();
     }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        menuManager.closeDrawer();
+    }
 }

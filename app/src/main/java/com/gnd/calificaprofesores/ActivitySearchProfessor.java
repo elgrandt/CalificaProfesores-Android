@@ -180,4 +180,9 @@ public class ActivitySearchProfessor extends AppCompatActivity {
         ShownDataListed.clear();
         adapter.notifyDataSetChanged();
     }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        menuManager.closeDrawer();
+    }
 }

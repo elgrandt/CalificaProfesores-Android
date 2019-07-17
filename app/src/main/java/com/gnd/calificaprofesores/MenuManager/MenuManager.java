@@ -1,17 +1,24 @@
 package com.gnd.calificaprofesores.MenuManager;
 
+import android.animation.Animator;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.support.annotation.NonNull;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
+import android.view.DragEvent;
 import android.view.Gravity;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.balysv.materialmenu.MaterialMenuDrawable;
@@ -43,6 +50,8 @@ import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.Set;
 
+import static android.view.DragEvent.ACTION_DRAG_STARTED;
+
 /*** Manejamos el menu para navegar por la aplicación ***/
 // https://stackoverflow.com/questions/19442841/how-to-open-navigation-drawer-on-button-click-in-main-fragment
 /** layout_lateral_menu.xml **/
@@ -69,14 +78,38 @@ public class MenuManager {
             buttonVerificar,
             buttonWriteNews;
 
-    public MenuManager(Context ctx, MaterialMenuView _materialMenuView, DrawerLayout _mDrawerLayout) {
+    public MenuManager(final Context ctx, MaterialMenuView _materialMenuView, DrawerLayout _mDrawerLayout) {
+        Log.d("CalificaProfesoresLogs", "Empezando menu 2");
         this.materialMenuView = _materialMenuView;
         this.mDrawerLayout = _mDrawerLayout;
 
         this.materialMenuView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mDrawerLayout.openDrawer(Gravity.LEFT);
+
+                mDrawerLayout.openDrawer(GravityCompat.START);
+            }
+        });
+        this.mDrawerLayout.addDrawerListener(new DrawerLayout.DrawerListener() {
+            @Override
+            public void onDrawerSlide(@NonNull View view, float v) {
+                /** este codigo saca el focus del text input y saca el mini teclado de la pantalla **/
+                InputMethodManager inputMethodManager = (InputMethodManager)  ctx.getSystemService(Activity.INPUT_METHOD_SERVICE);
+                inputMethodManager.hideSoftInputFromWindow(view.getRootView().getWindowToken(), 0);
+                view.getRootView().clearFocus();
+            }
+
+            @Override
+            public void onDrawerOpened(@NonNull View view) {
+            }
+
+            @Override
+            public void onDrawerClosed(@NonNull View view) {
+            }
+
+            @Override
+            public void onDrawerStateChanged(int i) {
+
             }
         });
 
@@ -98,7 +131,11 @@ public class MenuManager {
             UserDataManagerInstance.getInstance().listenForUserRights();
         }
     }
-    public void addMenus(boolean admin){
+    public void closeDrawer(){
+        /* para cerrar el drawer */
+        mDrawerLayout.closeDrawers();
+    }
+    private void addMenus(boolean admin){
         adapter = new Adapter();
         recyclerView = mDrawerLayout.findViewById(R.id.RecyclerViewMenu);
         recyclerView.setLayoutManager(new LinearLayoutManager(mDrawerLayout.getContext()));
@@ -152,17 +189,21 @@ public class MenuManager {
         buttonBuscarProfesor.setClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(
+                        mDrawerLayout.getContext(),
+                        ActivitySearchProfessor.class
+                );
+                /* Para evitar activities stackeados */
+
+                intent.setFlags(Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED);
+
                 mDrawerLayout.getContext().startActivity(
-                        new Intent(
-                                mDrawerLayout.getContext(),
-                                ActivitySearchProfessor.class
-                        )
+                        intent
                 );
             }
         });
 
         adapter.AddElement(buttonBuscarProfesor);
-
 
         buttonCambiarFacultad = new MenuButtonData(
                 getText(R.string.TextoBotonSelFacultad),
@@ -358,6 +399,7 @@ public class MenuManager {
         buttonVerificar.setClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Intent intent = new Intent(
                         mDrawerLayout.getContext(),
                         ActivityVerificar.class

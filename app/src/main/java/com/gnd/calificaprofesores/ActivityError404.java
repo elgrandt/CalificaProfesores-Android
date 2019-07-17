@@ -21,4 +21,9 @@ public class ActivityError404 extends AppCompatActivity {
                 (MaterialMenuView)findViewById(R.id.MaterialMenuButton),
                 (DrawerLayout)findViewById(R.id.DrawerLayout));
     }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        menuManager.closeDrawer();
+    }
 }

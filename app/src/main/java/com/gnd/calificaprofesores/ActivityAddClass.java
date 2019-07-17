@@ -246,6 +246,11 @@ public class ActivityAddClass extends AppCompatActivity {
             miniSearchData.notifyDataSetChanged();
         }
     }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        menuManager.closeDrawer();
+    }
     public void classAdded(){
         Toast.makeText(
                 this,

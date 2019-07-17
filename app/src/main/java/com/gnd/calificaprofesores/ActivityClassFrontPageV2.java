@@ -83,4 +83,9 @@ public class ActivityClassFrontPageV2 extends AppCompatActivity {
                 (DrawerLayout)findViewById(R.id.DrawerLayout));
 
     }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        menuManager.closeDrawer();
+    }
 }

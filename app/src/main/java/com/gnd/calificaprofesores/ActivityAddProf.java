@@ -183,6 +183,11 @@ public class ActivityAddProf extends AppCompatActivity {
                 (MaterialMenuView)findViewById(R.id.MaterialMenuButton),
                 (DrawerLayout)findViewById(R.id.DrawerLayout));
     }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        menuManager.closeDrawer();
+    }
     public void professorAdded(){
         Toast.makeText(this,
                 "Profesor será agregado en unos instantes",

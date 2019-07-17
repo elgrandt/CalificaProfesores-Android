@@ -102,5 +102,10 @@ public class ActivityAtribuciones extends AppCompatActivity {
                 (DrawerLayout)findViewById(R.id.DrawerLayout));
 
     }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        menuManager.closeDrawer();
+    }
 
 }

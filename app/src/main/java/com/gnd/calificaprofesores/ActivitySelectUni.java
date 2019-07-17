@@ -12,6 +12,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.ImageView;
@@ -67,10 +68,13 @@ public class ActivitySelectUni extends AppCompatActivity {
     private UserDataManager userDataManager;
     private MenuManager menuManager;
 
+    private static final String TAG = "Hello";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select_uni);
+
 
         Intent intent = getIntent();
         ShownDataListed = new ArrayList<>();
@@ -103,6 +107,7 @@ public class ActivitySelectUni extends AppCompatActivity {
             public boolean onKey(View view,int keyCode, KeyEvent event){
                 if ((event.getAction() == KeyEvent.ACTION_DOWN) &&
                         (keyCode == KeyEvent.KEYCODE_ENTER)) {
+                    Log.d(TAG, "Hello world");
                     SetLoading();
                     String searchText = mUniInput.getText().toString();
 
@@ -193,7 +198,14 @@ public class ActivitySelectUni extends AppCompatActivity {
         );
 
     }
-    protected void selectUni(final String uniId,final String uniShortName, final String uniCompleteName){
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        menuManager.closeDrawer();
+    }
+
+    protected void selectUni(final String uniId, final String uniShortName, final String uniCompleteName){
         userDataManager.setUni(uniShortName, uniId, uniCompleteName);
 
         UserExtraDataInstance.getInstance()

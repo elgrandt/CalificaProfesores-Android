@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -35,6 +36,7 @@ import com.pnikosis.materialishprogress.ProgressWheel;
 import java.util.List;
 
 /** activity_user.xml **/
+/** Esta es la activity por donde empieza la App **/
 
 public class ActivityUser extends AppCompatActivity {
     private MenuManager menuManager;
@@ -47,6 +49,7 @@ public class ActivityUser extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user);
 
@@ -86,6 +89,13 @@ public class ActivityUser extends AppCompatActivity {
         }
 
         SetLoading();
+
+
+    }
+    @Override
+    protected void onResume() {
+        super.onResume();
+        menuManager.closeDrawer();
     }
     private void SetLoading(){
         progressWheel.setVisibility(View.VISIBLE);

@@ -13,7 +13,8 @@
     <color name="CE_color_b">#FFFFFF</color>
     <color name="A_color_a">#FF9940</color>
     <color name="A_color_b">#FFFFFF</color>
-    <color name="MenuColor">#b3b3b3</color>
+    <color name="MenuColor">#E4E3E3</color>
+    <color name="MenuButtonBackground">#DBD6D6</color>
     <color name="BackgroundCard">#C7C1A2</color>
     <color name="White">#FFFFFF</color>
     <color name="BackgroundRecyclerView">#e9e9e9</color>

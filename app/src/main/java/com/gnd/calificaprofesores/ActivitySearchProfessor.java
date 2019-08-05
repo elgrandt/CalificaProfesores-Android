@@ -2,24 +2,21 @@ package com.gnd.calificaprofesores;
 
 /** Esta actividad es search professor, el nombre es equivocado **/
 
-import android.app.LauncherActivity;
 import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.support.design.widget.TextInputEditText;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.AppCompatActivity;
+
+import com.gnd.calificaprofesores.FireSearchOptimized.FireSearch;
+import com.gnd.calificaprofesores.FireSearchOptimized.GotSearchListener;
+import com.gnd.calificaprofesores.FireSearchOptimized.SearchWordContent;
+import com.google.android.material.textfield.TextInputEditText;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.text.Editable;
-import android.text.TextWatcher;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.view.KeyEvent;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import com.balysv.materialmenu.MaterialMenuView;
 import com.gnd.calificaprofesores.IntentsManager.IntentProfManager;
@@ -57,6 +54,7 @@ public class ActivitySearchProfessor extends AppCompatActivity {
 
     private MenuManager menuManager;
     private SearchProfHandler searchProfHandler;
+    //private FireSearch searchProfHandler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,6 +62,7 @@ public class ActivitySearchProfessor extends AppCompatActivity {
         setContentView(R.layout.activity_search_professor);
 
         mUserDatabase = FirebaseDatabase.getInstance().getReference("Prof");
+        //searchProfHandler = new FireSearch("SearchWords/Prof");
         searchProfHandler = new SearchProfHandler();
 
         ShownDataListed = new ArrayList<>();
@@ -118,7 +117,7 @@ public class ActivitySearchProfessor extends AppCompatActivity {
                     SetLoaded();
                     adapter.clear();
                     for (final ProfData prof : data){
-                        prof.SetClickListener(new View.OnClickListener() {
+                        View.OnClickListener listener = new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {
                                 IntentProfManager intent = new IntentProfManager(
@@ -130,16 +129,14 @@ public class ActivitySearchProfessor extends AppCompatActivity {
                                 );
                                 startActivity(intent.GetIntent());
                             }
-                        });
-
+                        };
                         UniData nuevo = new UniData(
                                 prof.GetId(),
                                 prof.GetName(),
                                 prof.GetDetails()
                         );
                         nuevo.SetType(18);
-
-                        nuevo.SetClickListener(prof.GetClickListener());
+                        nuevo.SetClickListener(listener);
                         adapter.AddElement(nuevo);
                     }
                 }
@@ -148,6 +145,50 @@ public class ActivitySearchProfessor extends AppCompatActivity {
                 adapter.notifyDataSetChanged();
             }
         });
+        /*searchProfHandler.setListener(new GotSearchListener() {
+            @Override
+            public void onGotSearch(Set<SearchWordContent> data) {
+                if (data.isEmpty()){
+                    SetLoaded();
+                    adapter.clear();
+                    adapter.AddElement(new NoInfoData(
+                            "NO FUE ENCONTRADO EL/LA PROFESOR/A",
+                            "AGREGAR NUEVO PROFESOR/A",
+                            goToAddProfessorListener
+                    ));
+                }else{
+                    SetLoaded();
+                    adapter.clear();
+                    for (final SearchWordContent prof : data){
+                        View.OnClickListener listener = new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                IntentProfManager intent = new IntentProfManager(
+                                        new Intent(
+                                                ActivitySearchProfessor.this,
+                                                ActivityProfFrontPageV2.class),
+                                        prof.getTitle(),
+                                        prof.getId()
+                                );
+                                startActivity(intent.GetIntent());
+                            }
+                        };
+                        UniData nuevo = new UniData(
+                                prof.getId(),
+                                prof.getTitle(),
+                                prof.getSubtitle()
+                        );
+                        nuevo.SetType(18);
+                        nuevo.SetClickListener(listener);
+                        adapter.AddElement(nuevo);
+                    }
+                }
+
+
+                adapter.notifyDataSetChanged();
+            }
+        });*/
+
 
         menuManager = new MenuManager(
                 this,
@@ -156,6 +197,7 @@ public class ActivitySearchProfessor extends AppCompatActivity {
     }
 
     protected void firebaseProfSearch(String searchText){
+        //searchProfHandler.runSearch(searchText);
         searchProfHandler.Search(searchText);
     }
     private void SetLoading(){

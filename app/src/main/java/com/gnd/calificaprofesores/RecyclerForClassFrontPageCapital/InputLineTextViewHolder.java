@@ -1,7 +1,6 @@
 package com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital;
 
-import android.support.design.widget.TextInputEditText;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.text.InputType;
 import android.view.View;
 import android.widget.EditText;

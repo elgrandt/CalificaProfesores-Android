@@ -7,3 +7,6 @@ https://stackoverflow.com/questions/46549766/whats-the-difference-between-cloud-
 En algun momento habrá que migrar y utilizar cloud firestore
 
 https://stackoverflow.com/questions/6369062/how-do-i-add-elements-dynamically-to-a-view-created-with-xml
+
+Importante, optimizaciones de firebase
+https://pamartinezandres.com/lessons-learnt-the-hard-way-using-firebase-realtime-database-c609b52b9afb

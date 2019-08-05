@@ -4,29 +4,16 @@ package com.gnd.calificaprofesores;
 manual de la aplicación */
 
 import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toolbar;
 import android.widget.Toast;
 
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
-import com.facebook.FacebookCallback;
-import com.facebook.FacebookException;
-import com.facebook.login.LoginResult;
-import com.facebook.login.widget.LoginButton;
-import com.firebase.ui.auth.data.model.User;
-import com.gnd.calificaprofesores.NetworkHandler.GotUserExtraDataListener;
-import com.gnd.calificaprofesores.NetworkHandler.GotUserRightsListener;
-import com.gnd.calificaprofesores.NetworkHandler.UserDataManager;
-import com.gnd.calificaprofesores.NetworkHandler.UserDataManagerInstance;
-import com.gnd.calificaprofesores.NetworkHandler.UserExtraData;
-import com.gnd.calificaprofesores.NetworkHandler.UserExtraDataInstance;
 import com.google.android.gms.auth.api.Auth;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
@@ -42,12 +29,11 @@ import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FacebookAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 
 public class ActivityLogin extends AppCompatActivity {
 
-    private android.support.v7.widget.Toolbar toolbar;
+    private androidx.appcompat.widget.Toolbar toolbar;
 
     private static GoogleSignInClient mGoogleSignInClient;
     private FirebaseAuth mAuth;
@@ -123,6 +109,7 @@ public class ActivityLogin extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
 
         if (mAuth.getCurrentUser() != null){
+            /* deberia decir ActivityUser.class */
             Intent intent = new Intent(ActivityLogin.this, ActivityUser.class);
             startActivity(intent);
         }
@@ -234,6 +221,7 @@ public class ActivityLogin extends AppCompatActivity {
         dataManager.listenForUserRights();
         dataManager.listenForUserProfileData();*/
 
+        /* deberia ser ActivityUser.class, esta en prueba */
         Intent intent = new Intent(ActivityLogin.this, ActivityUser.class);
         startActivity(intent);
     }

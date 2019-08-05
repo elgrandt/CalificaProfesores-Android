@@ -1,13 +1,11 @@
 package com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
 import com.gnd.calificaprofesores.R;
-
-import org.w3c.dom.Text;
 
 public class NoInfoViewHolder extends RecyclerView.ViewHolder {
     View view;

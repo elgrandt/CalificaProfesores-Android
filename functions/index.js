@@ -56,13 +56,14 @@ admin.initializeApp(functions.config().firebase);
 });*/
 
 function getDelta(event, child_name){
+    var previo;
     if (event.before.val() !== null) {
-        var prev = parseInt(event.before.child(child_name).val());
+        previo = parseInt(event.before.child(child_name).val());
     }else{
-        var prev = 0;
+        previo = 0;
     }
     actual = parseInt(event.after.child(child_name).val());
-    var delta = actual - prev;
+    var delta = actual - previo;
     return delta;
 }
 
@@ -204,16 +205,16 @@ exports.CreateProfRequest1 = functions.database.ref("/ProfAddRequests/{uid}/{rid
         }else{
             console.log("Agregandole materias al profesor "+profId);
             console.log("path = ","Prof/"+profId+"/Mat");
-            for (var child in arrMaterias){
+            for (var childo in arrMaterias){
                 admin.database()
-                .ref("Prof/"+profId+"/Mat/"+child)
-                .set(arrMaterias[child]);
+                .ref("Prof/"+profId+"/Mat/"+childo)
+                .set(arrMaterias[childo]);
                 
                 admin.database()
-                .ref("Prof/"+profId+"/Facultades/"+arrMaterias[child]["facultad"])
-                .set(arrMaterias[child]["facultad"])
+                .ref("Prof/"+profId+"/Facultades/"+arrMaterias[childo]["facultad"])
+                .set(arrMaterias[childo]["facultad"])
                 .then(() => {
-                    console.log('Successfully updated database Prof/'+profId+'/Mat/'+child);
+                    console.log('Successfully updated database Prof/'+profId+'/Mat/'+childo);
                     return 1;
                 }).catch(() => {
                     console.log('Error updating database');
@@ -222,10 +223,10 @@ exports.CreateProfRequest1 = functions.database.ref("/ProfAddRequests/{uid}/{rid
             }
         }
         // luego agregamos a las materias correspondientes la referencia al profesor
-        for (var child in arrMaterias){
-            admin.database().ref("Materias/"+child+"/Prof/"+profId)
+        for (var childo2 in arrMaterias){
+            admin.database().ref("Materias/"+childo2+"/Prof/"+profId)
             .set(name).then(() => {
-                console.log('Successfully updated database Materias/'+child+'/Prof/'+profId);
+                console.log('Successfully updated database Materias/'+childo2+'/Prof/'+profId);
                 return 0;
             }).catch(() => {
                 console.log('Error updating database');
@@ -295,11 +296,11 @@ exports.UpdateProfRequest1 = functions.database.ref("/ProfAddRequests/{uid}/{rid
 
                 console.log("Eliminando adicion de materias al prof Prof/"+profId);
 
-                for (var child in arrMaterias){
+                for (var childo3 in arrMaterias){
                     admin.database()
-                    .ref("Prof/"+profId+"/Mat/"+child).remove()
+                    .ref("Prof/"+profId+"/Mat/"+childo3).remove()
                     .then(() => {
-                        console.log("Successfully updated database Prof/"+profId+"/Mat/"+child);
+                        console.log("Successfully updated database Prof/"+profId+"/Mat/"+childo3);
                         return 1;
                     }).catch(() => {
                         console.log('Error updating database');
@@ -307,11 +308,11 @@ exports.UpdateProfRequest1 = functions.database.ref("/ProfAddRequests/{uid}/{rid
                     });
 
 
-                    console.log("Deleting link "+child+"/Prof/"+profId);
+                    console.log("Deleting link "+childo3+"/Prof/"+profId);
                     admin.database()
-                    .ref("Materias/"+child+"/Prof/"+profId).remove()
+                    .ref("Materias/"+childo3+"/Prof/"+profId).remove()
                     .then(() => {
-                        console.log("Successfully updated database Materias"+child+"/Prof/"+profId);
+                        console.log("Successfully updated database Materias"+childo3+"/Prof/"+profId);
                         return 1;
                     }).catch(() => {
                         console.log('Error updating database');

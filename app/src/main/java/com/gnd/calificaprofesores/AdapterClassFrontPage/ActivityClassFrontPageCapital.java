@@ -2,40 +2,32 @@ package com.gnd.calificaprofesores.AdapterClassFrontPage;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.content.Intent;
 
-import com.gnd.calificaprofesores.ActivityError404;
 import com.gnd.calificaprofesores.ActivityOpinarMateria;
 import com.gnd.calificaprofesores.ActivityProfFrontPageV2;
-import com.gnd.calificaprofesores.AdapterProfFrontPage.ActivityOpinion;
 import com.gnd.calificaprofesores.IntentsManager.IntentCourseManager;
 import com.gnd.calificaprofesores.IntentsManager.IntentProfManager;
 import com.gnd.calificaprofesores.NetworkHandler.ClassDataManager;
 import com.gnd.calificaprofesores.NetworkHandler.CourseCommentsDataManager;
 import com.gnd.calificaprofesores.NetworkHandler.CourseData;
-import com.gnd.calificaprofesores.NetworkHandler.GotCommentListener;
 import com.gnd.calificaprofesores.NetworkHandler.GotCourseInfoListener;
 import com.gnd.calificaprofesores.NetworkProfOpinion.ProfExtendedData;
-import com.gnd.calificaprofesores.OpinionItem.CourseComment;
 import com.gnd.calificaprofesores.R;
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.Adapter;
-import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.AdapterElement;
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.Error404Data;
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.NoInfoData;
-import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.OpinionProfData;
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.ProfessorData;
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.StarsData;
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.TitleData;
-import com.google.firebase.database.DatabaseError;
 
 /*** Aqui mostramos la informacion más importante de las clases **/
 

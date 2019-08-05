@@ -1,24 +1,18 @@
 package com.gnd.calificaprofesores.MenuManager;
 
-import android.animation.Animator;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
-import android.support.annotation.NonNull;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
-import android.view.DragEvent;
-import android.view.Gravity;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.balysv.materialmenu.MaterialMenuDrawable;
@@ -27,18 +21,13 @@ import com.firebase.ui.auth.AuthUI;
 import com.gnd.calificaprofesores.ActivityAtribuciones;
 import com.gnd.calificaprofesores.ActivityLogin;
 import com.gnd.calificaprofesores.ActivityPrivacyPolicy;
-import com.gnd.calificaprofesores.ActivitySearchCourse;
 import com.gnd.calificaprofesores.ActivitySearchProfessor;
 import com.gnd.calificaprofesores.ActivitySelectUni;
-import com.gnd.calificaprofesores.ActivitySignIn;
 import com.gnd.calificaprofesores.ActivityUser;
 import com.gnd.calificaprofesores.ActivityVerificar;
 import com.gnd.calificaprofesores.ActivityWriteNews;
-import com.gnd.calificaprofesores.NetworkHandler.GotUserExtraDataListener;
 import com.gnd.calificaprofesores.NetworkHandler.GotUserRightsListener;
-import com.gnd.calificaprofesores.NetworkHandler.UserDataManager;
 import com.gnd.calificaprofesores.NetworkHandler.UserDataManagerInstance;
-import com.gnd.calificaprofesores.NetworkHandler.UserExtraData;
 import com.gnd.calificaprofesores.NetworkHandler.UserExtraDataInstance;
 import com.gnd.calificaprofesores.R;
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.Adapter;
@@ -47,10 +36,6 @@ import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.LateralMenuIt
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
-
-import java.util.Set;
-
-import static android.view.DragEvent.ACTION_DRAG_STARTED;
 
 /*** Manejamos el menu para navegar por la aplicación ***/
 // https://stackoverflow.com/questions/19442841/how-to-open-navigation-drawer-on-button-click-in-main-fragment

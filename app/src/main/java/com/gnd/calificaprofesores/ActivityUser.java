@@ -1,17 +1,12 @@
 package com.gnd.calificaprofesores;
 
-import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.util.Log;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.view.View;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.balysv.materialmenu.MaterialMenuView;
 import com.gnd.calificaprofesores.MenuManager.MenuManager;
@@ -20,17 +15,7 @@ import com.gnd.calificaprofesores.NetworkNewsHandler.GotNewsListener;
 import com.gnd.calificaprofesores.NetworkNewsHandler.NetworkNewsHandler;
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.Adapter;
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.NewsItemData;
-import com.google.android.gms.auth.api.Auth;
-import com.google.android.gms.auth.api.signin.GoogleSignIn;
-import com.google.android.gms.auth.api.signin.GoogleSignInClient;
-import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.FirebaseDatabase;
 import com.pnikosis.materialishprogress.ProgressWheel;
 
 import java.util.List;
@@ -90,7 +75,10 @@ public class ActivityUser extends AppCompatActivity {
 
         SetLoading();
 
-
+        /** Provisional **/
+        /*Intent intent = new Intent(ActivityUser.this, ActivityCompleteSearch.class);
+        startActivity(intent);*/
+        /** Fin provisional **/
     }
     @Override
     protected void onResume() {

@@ -1,17 +1,13 @@
 package com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital;
 
-import android.media.Rating;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
-import android.widget.ProgressBar;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
 
 import com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar;
 import com.gnd.calificaprofesores.R;
-import com.pnikosis.materialishprogress.ProgressWheel;
-import com.rey.material.widget.ProgressView;
 
 
 /** layout asociado: layout_item_professor.xml **/

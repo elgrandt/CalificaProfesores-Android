@@ -4,53 +4,37 @@ package com.gnd.calificaprofesores;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.TextInputEditText;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.text.Editable;
-import android.text.TextWatcher;
+
+import com.google.android.material.textfield.TextInputEditText;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.ImageView;
 
 import com.balysv.materialmenu.MaterialMenuView;
-import com.firebase.ui.database.FirebaseRecyclerAdapter;
-import com.firebase.ui.database.FirebaseRecyclerOptions;
-import com.firebase.ui.database.SnapshotParser;
-import com.gnd.calificaprofesores.ListItems.BasicListItem;
-import com.gnd.calificaprofesores.ListItems.ListItemViewHolder;
 import com.gnd.calificaprofesores.MenuManager.MenuManager;
 import com.gnd.calificaprofesores.NetworkHandler.GotUserExtraDataListener;
 import com.gnd.calificaprofesores.NetworkHandler.SentUniDataListener;
 import com.gnd.calificaprofesores.NetworkHandler.UserDataManager;
-import com.gnd.calificaprofesores.NetworkHandler.UserDataManagerInstance;
 import com.gnd.calificaprofesores.NetworkHandler.UserExtraData;
 import com.gnd.calificaprofesores.NetworkHandler.UserExtraDataInstance;
 import com.gnd.calificaprofesores.NetworkSearchQueriesHandler.GotUniListener;
 import com.gnd.calificaprofesores.NetworkSearchQueriesHandler.SearchUniHandler;
 import com.gnd.calificaprofesores.NetworkSearchQueriesHandler.UniData;
-import com.gnd.calificaprofesores.OpinionItem.AdapterCourseComments;
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.Adapter;
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.NoInfoData;
-import com.gnd.calificaprofesores.SearchItem.AdapterSearch;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.Query;
 import com.pnikosis.materialishprogress.ProgressWheel;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 import java.util.Set;
-import java.util.TreeSet;
 
-import static android.support.test.InstrumentationRegistry.getContext;
+import static androidx.test.InstrumentationRegistry.getContext;
 
 /** activity_select_uni.xml **/
 

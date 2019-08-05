@@ -1,9 +1,6 @@
 package com.gnd.calificaprofesores;
 
-import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.view.View;
-import android.widget.Toast;
+import androidx.annotation.NonNull;
 
 import com.gnd.calificaprofesores.NetworkHandler.ProcessVote;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -12,10 +9,6 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 import org.junit.Test;
-
-import java.io.Console;
-
-import static org.junit.Assert.*;
 
 /**
  * Example local unit test, which will execute on the development machine (host).

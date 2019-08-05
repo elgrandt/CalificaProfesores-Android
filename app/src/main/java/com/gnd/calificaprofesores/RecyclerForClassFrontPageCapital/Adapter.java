@@ -1,13 +1,12 @@
 package com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital;
 
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.gnd.calificaprofesores.NetworkSearchQueriesHandler.UniData;
-import com.gnd.calificaprofesores.OpinionItem.OpinionItemViewHolder;
 import com.gnd.calificaprofesores.R;
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.LateralMenuItems.MenuButtonData;
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.LateralMenuItems.MenuButtonViewHolder;
@@ -15,7 +14,6 @@ import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.LateralMenuIt
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.LateralMenuItems.MenuSeparatorViewHolder;
 import com.gnd.calificaprofesores.SearchItem.SearchItemViewHolder;
 import com.gnd.calificaprofesores.SmallLoadingViewHolder;
-import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 
 import java.util.ArrayList;
 import java.util.List;

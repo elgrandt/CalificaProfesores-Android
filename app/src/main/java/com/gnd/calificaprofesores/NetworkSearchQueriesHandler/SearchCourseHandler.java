@@ -1,7 +1,6 @@
 package com.gnd.calificaprofesores.NetworkSearchQueriesHandler;
 
-import android.bluetooth.le.AdvertiseData;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.gnd.calificaprofesores.NetworkHandler.CourseData;
 import com.google.firebase.database.DataSnapshot;
@@ -10,11 +9,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
-import java.util.Vector;
 
 public class SearchCourseHandler {
     private DatabaseReference mDatabase;

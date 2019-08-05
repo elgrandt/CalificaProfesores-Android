@@ -1,8 +1,7 @@
 package com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
-import android.widget.ProgressBar;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
@@ -10,8 +9,6 @@ import com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar;
 import com.gnd.calificaprofesores.R;
 
 import java.sql.Date;
-import java.sql.Timestamp;
-import java.util.Map;
 
 
 /** layout_item_opinion_prof.xml **/

@@ -1,18 +1,9 @@
 package com.gnd.calificaprofesores.AdapterClassFrontPage;
 
-import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewCompat;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
-
-import com.astuetz.PagerSlidingTabStrip;
-import com.gnd.calificaprofesores.R;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
 
 public class AdapterClassFrontPage extends FragmentPagerAdapter  {
 

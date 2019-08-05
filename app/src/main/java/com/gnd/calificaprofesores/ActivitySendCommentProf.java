@@ -1,12 +1,12 @@
 package com.gnd.calificaprofesores;
 
 import android.content.Intent;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.text.Editable;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -16,11 +16,9 @@ import com.balysv.materialmenu.MaterialMenuView;
 import com.gnd.calificaprofesores.IntentsManager.IntentProfManager;
 import com.gnd.calificaprofesores.MenuManager.MenuManager;
 import com.gnd.calificaprofesores.NetworkProfOpinion.GotProfMatListener;
-import com.gnd.calificaprofesores.NetworkProfOpinion.Materia;
 import com.gnd.calificaprofesores.NetworkProfOpinion.ProfCommentsDataManager;
 import com.gnd.calificaprofesores.NetworkProfOpinion.SentProfCommentListener;
 import com.gnd.calificaprofesores.NetworkProfOpinion.UserProfComment;
-import com.gnd.calificaprofesores.R;
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.Adapter;
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.ButtonData;
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.ClickableData;
@@ -30,20 +28,16 @@ import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.ScoreSelector
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.SelectableItem;
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.TitleData;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ServerValue;
 import com.pnikosis.materialishprogress.ProgressWheel;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
-import static android.support.test.InstrumentationRegistry.getContext;
+import static androidx.test.InstrumentationRegistry.getContext;
 
 /** activity_send_comment_prof.xml **/
 

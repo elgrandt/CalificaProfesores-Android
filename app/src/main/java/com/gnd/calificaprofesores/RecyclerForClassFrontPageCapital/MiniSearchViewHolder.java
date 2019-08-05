@@ -1,23 +1,17 @@
 package com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital;
 
-import android.support.constraint.ConstraintLayout;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.TextInputEditText;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.CompoundButton;
 import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.Switch;
 
 import com.gnd.calificaprofesores.NetworkSearchQueriesHandler.UniData;
 import com.gnd.calificaprofesores.R;
-import com.gnd.calificaprofesores.SearchItem.AdapterSearch;
 
 import java.util.ArrayList;
 

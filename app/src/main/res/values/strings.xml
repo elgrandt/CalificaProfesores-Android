@@ -181,6 +181,8 @@
     <string name="NotFoundText">NO ENCONTRADO</string>
     <string name="SearchFailureText">EL CONTENIDO QUE BUSCAS NO HA SIDO ENCONTRADO</string>
     <string name="notfound404">404</string>
+    <string name="HintSearch">Buscar ...</string>
+    <string name="title_activity_general_search">ActivityGeneralSearch</string>
 
 </resources>
 

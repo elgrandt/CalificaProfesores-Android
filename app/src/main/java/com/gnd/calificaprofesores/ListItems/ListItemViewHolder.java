@@ -1,13 +1,11 @@
 package com.gnd.calificaprofesores.ListItems;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
 import com.gnd.calificaprofesores.R;
-
-import org.w3c.dom.Text;
 
 /**
  * Created by newtonis on 23/02/18.

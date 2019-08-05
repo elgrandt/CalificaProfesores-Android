@@ -1,17 +1,15 @@
 package com.gnd.calificaprofesores.SearchItem;
 
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.gnd.calificaprofesores.NetworkSearchQueriesHandler.UniData;
-import com.gnd.calificaprofesores.OpinionItem.CourseComment;
 import com.gnd.calificaprofesores.R;
 
 import java.util.List;
-import java.util.Set;
 
 /** Aqui creamos el adapter para administrar los buscadores de materias, profesores y universidades **/
 

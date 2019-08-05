@@ -1,0 +1,27 @@
+{
+    "Acústica para Ingenieros - 23.05": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Acústica para Ingenieros - 23.05",
+        "prof": []
+    },
+    "Administración de Recursos Humanos - 94.27": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Administración de Recursos Humanos - 94.27",
+        "prof": [
+            "Pedró Cecilia Angélica",
+            "Feld Guido Mariano",
+            "González Gainza Maria Florencia"
+        ]
+    },
+    "Aire Acondicionado y Refrigeración - 31.73": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Aire Acondicionado y Refrigeración - 31.73",
+        "prof": [
+            "Ilundain Ignacio Hugo",
+            "Garcia Eijo Pedro Manuel"
+        ]
+    }
+}

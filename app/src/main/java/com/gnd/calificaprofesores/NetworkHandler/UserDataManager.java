@@ -1,8 +1,7 @@
 package com.gnd.calificaprofesores.NetworkHandler;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
-import com.firebase.ui.auth.data.model.User;
 import com.gnd.calificaprofesores.NetworkProfOpinion.UserProfComment;
 import com.gnd.calificaprofesores.OpinionItem.CourseComment;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -14,8 +13,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 

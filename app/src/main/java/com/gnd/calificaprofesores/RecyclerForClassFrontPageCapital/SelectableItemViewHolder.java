@@ -1,16 +1,11 @@
 package com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital;
 
-import android.support.v7.widget.RecyclerView;
-import android.view.MotionEvent;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.gnd.calificaprofesores.R;
-
-import org.w3c.dom.Text;
-
-import java.io.Console;
 
 /** search_list_element.xml **/
 

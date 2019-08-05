@@ -1,13 +1,10 @@
 package com.gnd.calificaprofesores.AdapterClassFrontPage;
 
-import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.view.ViewCompat;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.text.Layout;
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,7 +15,6 @@ import com.gnd.calificaprofesores.ActivityOpinarMateria;
 import com.gnd.calificaprofesores.IntentsManager.IntentCourseManager;
 import com.gnd.calificaprofesores.NetworkHandler.CourseCommentsDataManager;
 import com.gnd.calificaprofesores.NetworkHandler.GotCommentListener;
-import com.gnd.calificaprofesores.OpinionItem.AdapterCourseComments;
 import com.gnd.calificaprofesores.OpinionItem.CourseComment;
 import com.gnd.calificaprofesores.R;
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.Adapter;
@@ -26,11 +22,7 @@ import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.NoInfoData;
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.OpinionCourseData;
 import com.google.firebase.database.DatabaseError;
 
-import org.w3c.dom.Comment;
-
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Vector;
 
 
 /** Aqui acumulamos todas las opiniones recientes de una clase **/

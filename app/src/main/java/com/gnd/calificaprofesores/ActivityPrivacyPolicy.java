@@ -1,15 +1,18 @@
 package com.gnd.calificaprofesores;
 
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.balysv.materialmenu.MaterialMenuView;
 import com.gnd.calificaprofesores.MenuManager.MenuManager;
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.Adapter;
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.AtributionData;
+
+/** Politica de privacidad **/
+/** Estado: ACTIVA **/
 
 public class ActivityPrivacyPolicy extends AppCompatActivity {
 

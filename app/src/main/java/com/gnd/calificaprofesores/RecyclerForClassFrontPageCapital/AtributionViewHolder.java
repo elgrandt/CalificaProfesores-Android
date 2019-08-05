@@ -1,15 +1,10 @@
 package com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
-import android.webkit.WebSettings;
 import android.webkit.WebView;
-import android.webkit.WebViewClient;
-import android.widget.TextView;
 
 import com.gnd.calificaprofesores.R;
-
-import org.w3c.dom.Text;
 
 public class AtributionViewHolder extends RecyclerView.ViewHolder {
     View view;

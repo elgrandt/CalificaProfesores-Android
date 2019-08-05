@@ -1,18 +1,16 @@
 package com.gnd.calificaprofesores;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.view.ViewPager;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
-import android.view.View;
+import androidx.annotation.Nullable;
+import androidx.viewpager.widget.ViewPager;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
 import android.widget.TextView;
 
 import com.astuetz.PagerSlidingTabStrip;
 import com.balysv.materialmenu.MaterialMenuView;
-import com.gnd.calificaprofesores.AdapterClassFrontPage.AdapterClassFrontPage;
 import com.gnd.calificaprofesores.AdapterProfFrontPage.AdapterProfFrontPage;
 import com.gnd.calificaprofesores.IntentsManager.IntentProfManager;
 import com.gnd.calificaprofesores.MenuManager.MenuManager;

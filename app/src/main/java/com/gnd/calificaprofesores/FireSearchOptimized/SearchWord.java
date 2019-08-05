@@ -1,48 +1,84 @@
 package com.gnd.calificaprofesores.FireSearchOptimized;
 
+import android.util.Log;
+
 import java.util.Arrays;
+import java.util.Vector;
 
 public class SearchWord {
-    private String baseCaracteres;
-    private String resto;
-    private String restoSorted;
+    private Vector<String> searchStrings; /** Strings con los que es posible buscar la palabra **/
+
+    private String title, subtitle;
+    private String id;
+    private String completeString;
 
     public SearchWord(String word){
-        if (word.length() > 2) {
-            baseCaracteres = word.substring(0, 2);
-            resto = word.substring(2);
+        completeString = word;
+        String [] split = word.split("\\s+");
+        searchStrings = new Vector<>();
 
-            char []charArray = resto.toCharArray();
-            Arrays.sort(charArray);
 
-            restoSorted = String.valueOf(charArray);
+        for (int i = 0;i < split.length;i++){
+            //StringBuilder builder = new StringBuilder();
 
-        }else{
-            /** Probema, deberia tener al menos longitud 2**/
+                //for (int k = j;k < split.length;k++){
+
+            String processedWord = split[i].toLowerCase();
+            processedWord = processedWord.replace("á","a");
+            processedWord = processedWord.replace("é","e");
+            processedWord = processedWord.replace("í","i");
+            processedWord = processedWord.replace("ó","o");
+            processedWord = processedWord.replace("ú","u");
+
+            //builder = builder.append(processedWord + " ");
+            //}
+            searchStrings.add(processedWord); //builder.toString());
+
         }
     }
-
-    public String getBaseCaracteres() {
-        return baseCaracteres;
+    public String getTitle() {
+        return title;
     }
 
-    public void setBaseCaracteres(String baseCaracteres) {
-        this.baseCaracteres = baseCaracteres;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
-    public String getResto() {
-        return resto;
+    public String getSubtitle() {
+        return subtitle;
     }
 
-    public void setResto(String resto) {
-        this.resto = resto;
+    public void setSubtitle(String subtitle) {
+        this.subtitle = subtitle;
     }
 
-    public String getRestoSorted() {
-        return restoSorted;
+    public String getId() {
+        return id;
     }
 
-    public void setRestoSorted(String restoSorted) {
-        this.restoSorted = restoSorted;
+    public void setId(String id) {
+        this.id = id;
     }
+
+    public SearchWordContent getContent(){
+        return new SearchWordContent(this.title, this.subtitle, this.id);
+    }
+
+    public Vector<String> getSearchStrings() {
+        return searchStrings;
+    }
+
+    public void setSearchStrings(Vector<String> searchStrings) {
+        this.searchStrings = searchStrings;
+    }
+
+    public String getCompleteString() {
+        return completeString;
+    }
+
+    public void setCompleteString(String completeString) {
+        this.completeString = completeString;
+    }
+
 }
+

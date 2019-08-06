@@ -9,6 +9,7 @@ package com.gnd.calificaprofesores;
 
 import android.content.Context;
 import android.util.Log;
+import android.util.Pair;
 
 import androidx.annotation.NonNull;
 
@@ -18,6 +19,8 @@ import com.gnd.calificaprofesores.NetworkAdd.CompleteClassData;
 import com.gnd.calificaprofesores.NetworkAdd.CompleteProfData;
 import com.gnd.calificaprofesores.NetworkAdd.ProfessorAddedListener;
 import com.gnd.calificaprofesores.NetworkAdd.SmallMateriaData;
+import com.gnd.calificaprofesores.NetworkSearchQueriesHandler.SearchWordMini;
+import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.MiniSearchData;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -47,6 +50,7 @@ public class GenerateDBDataFromJSON{
     private AddClassHandler addClassHandler;
 
     private FirebaseAuth mAuth;
+    private Map<String, String> professors;
 
     @Test
     public void RunGenerateDBDataFromJSON() throws org.json.JSONException{
@@ -56,7 +60,7 @@ public class GenerateDBDataFromJSON{
         addClassHandler = new AddClassHandler();
 
         mAuth = FirebaseAuth.getInstance();
-        mAuth.signInWithEmailAndPassword("ad@ad.com","lat5lala").addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+        mAuth.signInWithEmailAndPassword("ad@ad.com","laserthyjulatyutyula").addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
@@ -144,12 +148,13 @@ public class GenerateDBDataFromJSON{
     public void deleteMat(final String name){
         Log.d("CalificaProfesoresLogs","Eliminando materia " + name);
 
+        SearchWordMini miniName = new SearchWordMini(name);
         FirebaseDatabase.
                 getInstance()
                 .getReference("Materias")
                 .orderByChild("Name")
-                .startAt(name)
-                .endAt(name).addListenerForSingleValueEvent(new ValueEventListener() {
+                .startAt(miniName.getWord())
+                .endAt(miniName.getWord()).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 for (DataSnapshot child : dataSnapshot.getChildren()){
@@ -179,8 +184,10 @@ public class GenerateDBDataFromJSON{
         Map<String, String> facultades = new TreeMap<>();
         Map<String, SmallMateriaData> materias = new TreeMap<>();
 
+        SearchWordMini miniName = new SearchWordMini(name);
+
         addProfessorHandler.addProfessor(new CompleteProfData(
-                name,
+                miniName.getWord(),
                 "0",
                 true,
                 facultades,
@@ -209,12 +216,53 @@ public class GenerateDBDataFromJSON{
 
             JSONObject object = reader.getJSONObject(name);
 
-            String facultadId = object.getString("Facultad");
-            String facultadName = object.getString("ShownName");
-            String classId = "0";
+            final String facultadId = object.getString("Facultad");
+            final String facultadName = object.getString("ShownName");
+            final String classId = "0";
 
-            Map<String, String> professors = new HashMap<>();
+            professors = new HashMap<>();
 
+            final JSONArray profNames = object.getJSONArray("prof");
+            Log.d("CalificaProfesoresLogs","Materia: " + name);
+            Log.d("CalificaProfesoresLogs","Profesres:");
+
+            for (int j = 0;j < profNames.length();j++){
+                final String longProfName = profNames.getString(j);
+                SearchWordMini searchProfName = new SearchWordMini(longProfName);
+                final String profName = searchProfName.getWord();
+
+                Log.d("CalificaProfesoresLogs",profName);
+
+                FirebaseDatabase.getInstance()
+                        .getReference("Prof")
+                        .orderByChild("SearchName")
+                        .startAt(profName)
+                        .endAt(profName)
+                        .addValueEventListener(new ValueEventListener() {
+                            @Override
+                            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                                for (DataSnapshot child : dataSnapshot.getChildren()) {
+                                    String id = child.getKey();
+                                    addMateriasDbWithProf(
+                                            id,
+                                            longProfName,
+                                            facultadId,
+                                            facultadName,
+                                            classId,
+                                            profNames.length()
+                                    );
+
+                                }
+                            }
+
+                            @Override
+                            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                            }
+                        });
+
+            }
+            Log.d("CalificaProfesoresLogs","----------------------------------");
             /*addClassHandler.addClass(new CompleteClassData(
                     name,
                     facultadId,
@@ -222,8 +270,26 @@ public class GenerateDBDataFromJSON{
                     classId,
                     professors
             ));*/
-
         }
+    }
+    public void addMateriasDbWithProf(String id, String name, String facultadId, String facultadName, String classId, int length){
+        professors.put(id, name);
+
+        if (professors.size() == length) {
+            Log.d("CalificaProfesoresLogs", "Professors:");
+            for (String profName : professors.keySet()) {
+                Log.d("CalificaProfesoresLogs", profName + " " + professors.get(profName));
+            }
+            Log.d("CalificaProfesoresLogs", "Agregando ...");
+            addClassHandler.addClass(new CompleteClassData(
+                    name,
+                    facultadId,
+                    facultadName,
+                    classId,
+                    professors
+            ));
+        }
+
     }
 
 }

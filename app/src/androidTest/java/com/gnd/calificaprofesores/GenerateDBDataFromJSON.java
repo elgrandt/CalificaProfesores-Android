@@ -60,15 +60,15 @@ public class GenerateDBDataFromJSON{
         addClassHandler = new AddClassHandler();
 
         mAuth = FirebaseAuth.getInstance();
-        mAuth.signInWithEmailAndPassword("ad@ad.com","laserthyjulatyutyula").addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+        mAuth.signInWithEmailAndPassword("ad@ad.com","laljtyjaytjttjla").addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
                     try {
                         Log.d("CalificaProfesoresLogs", "Login!");
                         //deleteMatFrom("1");
-                        //addProfessorsDb();
-                        addMateriasDb();
+                        addProfessorsDb();
+                        //addMateriasDb();
                     }catch (Exception e){
                         Log.d("CalificaProfesoresLogs","org.json.JSONException");
                     }
@@ -184,10 +184,8 @@ public class GenerateDBDataFromJSON{
         Map<String, String> facultades = new TreeMap<>();
         Map<String, SmallMateriaData> materias = new TreeMap<>();
 
-        SearchWordMini miniName = new SearchWordMini(name);
-
         addProfessorHandler.addProfessor(new CompleteProfData(
-                miniName.getWord(),
+                name,
                 "0",
                 true,
                 facultades,

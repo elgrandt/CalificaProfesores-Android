@@ -1,0 +1,34 @@
+{
+    "Instituto Tecnológico de Buenos Aires": {
+        "id": "1",
+        "name": "itba"
+    },
+    "Facultad de Ciencias Exactas y Naturales": {
+        "id": "2",
+        "name": "fcen"
+    },
+    "Universidad Tecnológica Nacional": {
+        "id": "3",
+        "name": "utn"
+    },
+    "Facultad de Ingenieria de la Universidad de Buenos Aires": {
+        "id": "-LZvxYKXS-2er9_IT74v",
+        "name": "fiuba"
+    },
+    "Facultad de Arquitectura Diseño y Urbanismo": {
+        "id": "-L_DzQGuMF5cxgEjNmaa",
+        "name": "fadu"
+    },
+    "Digital House": {
+        "id": "-L_EZbBl5oqac1sPMlEf",
+        "name": "dh"
+    },
+    "Universidad de Palermo": {
+        "id": "-LdLEwKCMQxyLir3ENoC",
+        "name": "up"
+    },
+    "Universidad Nacional de Entre Ríos ": {
+        "id":"-LdZtAsur01sXBN-sWk-",
+        "name": "uner"
+    }
+}

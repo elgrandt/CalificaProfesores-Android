@@ -9,7 +9,6 @@ package com.gnd.calificaprofesores;
 
 import android.content.Context;
 import android.util.Log;
-import android.util.Pair;
 
 import androidx.annotation.NonNull;
 
@@ -20,7 +19,7 @@ import com.gnd.calificaprofesores.NetworkAdd.CompleteProfData;
 import com.gnd.calificaprofesores.NetworkAdd.ProfessorAddedListener;
 import com.gnd.calificaprofesores.NetworkAdd.SmallMateriaData;
 import com.gnd.calificaprofesores.NetworkSearchQueriesHandler.SearchWordMini;
-import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.MiniSearchData;
+import com.gnd.calificaprofesores.Utils.JSONUtils.UniJSONFile;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -30,7 +29,6 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.google.gson.JsonArray;
-import com.google.gson.JsonObject;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -48,9 +46,13 @@ public class GenerateDBDataFromJSON{
     private Context appContext;
     private AddProfessorHandler addProfessorHandler;
     private AddClassHandler addClassHandler;
+    private int count;
 
     private FirebaseAuth mAuth;
     private Map<String, String> professors;
+    private UniJSONFile uniJSONFile;
+    private JSONArray names;
+    private JSONObject reader;
 
     @Test
     public void RunGenerateDBDataFromJSON() throws org.json.JSONException{
@@ -58,17 +60,20 @@ public class GenerateDBDataFromJSON{
         appContext = getApplicationContext();
         addProfessorHandler = new AddProfessorHandler();
         addClassHandler = new AddClassHandler();
+        uniJSONFile = new UniJSONFile(R.raw.get_uni_id, appContext);
+        count = 0;
+
 
         mAuth = FirebaseAuth.getInstance();
-        mAuth.signInWithEmailAndPassword("ad@ad.com","laljtyjaytjttjla").addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+        mAuth.signInWithEmailAndPassword("ad@ad.com","lalala").addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
                     try {
                         Log.d("CalificaProfesoresLogs", "Login!");
                         //deleteMatFrom("1");
-                        addProfessorsDb();
-                        //addMateriasDb();
+                        //addProfessorsDb();
+                        addMateriasDb();
                     }catch (Exception e){
                         Log.d("CalificaProfesoresLogs","org.json.JSONException");
                     }
@@ -200,66 +205,98 @@ public class GenerateDBDataFromJSON{
 
     }
 
-    public void addMateriasDb() throws org.json.JSONException{
+    public void addMateriasDb() throws org.json.JSONException {
 
         InputStream inputStream = appContext.getResources().openRawResource(R.raw.materias);
-        String jsonString = new Scanner(inputStream,"ISO-8859-1").useDelimiter("\\A").next();
+        String jsonString = new Scanner(inputStream, "ISO-8859-1").useDelimiter("\\A").next();
 
-        JSONObject reader = new JSONObject(jsonString);
-        JSONArray names = reader.names();
+        reader = new JSONObject(jsonString);
+        names = reader.names();
+        professors = new HashMap<>();
 
-        for (int i = 0;i < names.length();i++) {
-
-            String name = names.getString(i);
-
+        for (int i = 0;i < names.length();i++){
+            final  String name = names.getString(i);
             JSONObject object = reader.getJSONObject(name);
 
-            final String facultadId = object.getString("Facultad");
-            final String facultadName = object.getString("ShownName");
+            JSONArray profList = object.getJSONArray("prof");
+
+            for (int j = 0;j < profList.length();j++){
+                professors.put(profList.getString(j),"");
+            }
+
+        }
+
+        count = 0;
+        // primero calculamos nombres
+        for (final String longProfName : professors.keySet()) {
+            SearchWordMini searchProfName = new SearchWordMini(longProfName);
+            final String profName = searchProfName.getWord();
+
+            Log.d("CalificaProfesoresLogs", profName);
+
+            FirebaseDatabase.getInstance()
+                    .getReference("Prof")
+                    .orderByChild("SearchName")
+                    .startAt(profName)
+                    .endAt(profName)
+                    .addValueEventListener(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                            for (DataSnapshot child : dataSnapshot.getChildren()) {
+                                String id = child.getKey();
+                                professors.replace(longProfName, id);
+
+                                count++;
+                                if (count == professors.size()) {
+                                    // cuanto colocamos todos los profesores
+                                    try {
+                                        loadMateriasWithProf();
+                                    }catch (org.json.JSONException e){
+                                        Log.d("CalificaProfesoresLogs", "org.json.JSONException");
+                                    }
+                                }
+
+                            }
+                        }
+
+                        @Override
+                        public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                        }
+                    });
+
+        }
+    }
+
+    private void loadMateriasWithProf() throws org.json.JSONException {
+
+        for (int i = 0;i < names.length();i++) {
+            final  String name = names.getString(i);
+            JSONObject object = reader.getJSONObject(name);
+
+            final String facultadFullName = object.getString("Facultad"); //object.getString("Facultad");
+            final String facultadName = object.getString("FacultadName");
+
+            final String facultadId = uniJSONFile.getUniIdFromName(facultadFullName);
             final String classId = "0";
 
-            professors = new HashMap<>();
+            Map <String, String> profList = new HashMap<>();
 
-            final JSONArray profNames = object.getJSONArray("prof");
-            Log.d("CalificaProfesoresLogs","Materia: " + name);
-            Log.d("CalificaProfesoresLogs","Profesres:");
+            JSONArray profArray = object.getJSONArray("prof");
 
-            for (int j = 0;j < profNames.length();j++){
-                final String longProfName = profNames.getString(j);
-                SearchWordMini searchProfName = new SearchWordMini(longProfName);
-                final String profName = searchProfName.getWord();
-
-                Log.d("CalificaProfesoresLogs",profName);
-
-                FirebaseDatabase.getInstance()
-                        .getReference("Prof")
-                        .orderByChild("SearchName")
-                        .startAt(profName)
-                        .endAt(profName)
-                        .addValueEventListener(new ValueEventListener() {
-                            @Override
-                            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                                for (DataSnapshot child : dataSnapshot.getChildren()) {
-                                    String id = child.getKey();
-                                    addMateriasDbWithProf(
-                                            id,
-                                            longProfName,
-                                            facultadId,
-                                            facultadName,
-                                            classId,
-                                            profNames.length()
-                                    );
-
-                                }
-                            }
-
-                            @Override
-                            public void onCancelled(@NonNull DatabaseError databaseError) {
-
-                            }
-                        });
-
+            for (int j = 0;j < profArray.length();j++){
+                String profName = profArray.getString(j);
+                profList.put(professors.get(profName), profName);
             }
+
+            addMateriasDbWithProf(
+                    name,
+                    facultadId,
+                    facultadName,
+                    classId,
+                    profList
+            );
+
             Log.d("CalificaProfesoresLogs","----------------------------------");
             /*addClassHandler.addClass(new CompleteClassData(
                     name,
@@ -270,24 +307,25 @@ public class GenerateDBDataFromJSON{
             ));*/
         }
     }
-    public void addMateriasDbWithProf(String id, String name, String facultadId, String facultadName, String classId, int length){
-        professors.put(id, name);
+    public void addMateriasDbWithProf(String name, String facultadId, String facultadName, String classId, Map<String, String> profList){
+        //professors.put(id, profName);
 
-        if (professors.size() == length) {
-            Log.d("CalificaProfesoresLogs", "Professors:");
-            for (String profName : professors.keySet()) {
-                Log.d("CalificaProfesoresLogs", profName + " " + professors.get(profName));
-            }
-            Log.d("CalificaProfesoresLogs", "Agregando ...");
-            addClassHandler.addClass(new CompleteClassData(
-                    name,
-                    facultadId,
-                    facultadName,
-                    classId,
-                    professors
-            ));
-        }
+        //if (professors.size() == length) {
+        Log.d("CalificaProfesoresLogs", "Professors:");
+
+       /* for (String profName : professors.keySet()) {
+            Log.d("CalificaProfesoresLogs", profName + " " + professors.get(profName));
+        }*/
+
+        Log.d("CalificaProfesoresLogs", "Agregando ...");
+        addClassHandler.addClass(new CompleteClassData(
+                name,
+                facultadId,
+                facultadName,
+                classId,
+                profList
+        ));
+        //}
 
     }
-
 }

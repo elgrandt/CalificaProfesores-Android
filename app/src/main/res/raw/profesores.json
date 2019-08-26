@@ -1,32 +1,20 @@
 {
-    "Feld Guido Mariano": {
+    "Barbier Eduardo Eugenio": {
         "facultades": [
             "ITBA"
         ],
-        "profName": "Feld Guido Mariano"
+        "profName": "Barbier Eduardo Eugenio"
     },
-    "Garcia Eijo Pedro Manuel": {
+    "Ghidina Daniel Elio": {
         "facultades": [
             "ITBA"
         ],
-        "profName": "Garcia Eijo Pedro Manuel"
+        "profName": "Ghidina Daniel Elio"
     },
-    "González Gainza Maria Florencia": {
+    "Pedretti Juan Francisco": {
         "facultades": [
             "ITBA"
         ],
-        "profName": "González Gainza Maria Florencia"
-    },
-    "Ilundain Ignacio Hugo": {
-        "facultades": [
-            "ITBA"
-        ],
-        "profName": "Ilundain Ignacio Hugo"
-    },
-    "Pedró Cecilia Angélica": {
-        "facultades": [
-            "ITBA"
-        ],
-        "profName": "Pedró Cecilia Angélica"
+        "profName": "Pedretti Juan Francisco"
     }
 }

@@ -10,3 +10,9 @@ https://stackoverflow.com/questions/6369062/how-do-i-add-elements-dynamically-to
 
 Importante, optimizaciones de firebase
 https://pamartinezandres.com/lessons-learnt-the-hard-way-using-firebase-realtime-database-c609b52b9afb
+
+Base de datos UTN
+https://docs.google.com/spreadsheets/d/19XPRP8zsVut-W1HihBxSZ_mZHlyHMBy-WIKNqurdNs8/edit?fbclid=IwAR2dJmIbVuyn-x8VQnTKIujbSClY247WL8-09ruWvU6D0DZcCDm7pAu0GDo#gid=1173209158
+
+Encoding mágico 
+encoding="ISO-8859-1"

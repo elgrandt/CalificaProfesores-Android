@@ -28,7 +28,6 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.google.gson.JsonArray;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -49,10 +48,10 @@ public class GenerateDBDataFromJSON{
     private int count;
 
     private FirebaseAuth mAuth;
-    private Map<String, String> professors;
     private UniJSONFile uniJSONFile;
     private JSONArray names;
     private JSONObject reader;
+    private Map<String, String> getProfessorId;
 
     @Test
     public void RunGenerateDBDataFromJSON() throws org.json.JSONException{
@@ -62,10 +61,10 @@ public class GenerateDBDataFromJSON{
         addClassHandler = new AddClassHandler();
         uniJSONFile = new UniJSONFile(R.raw.get_uni_id, appContext);
         count = 0;
-
+        getProfessorId = new HashMap<>();
 
         mAuth = FirebaseAuth.getInstance();
-        mAuth.signInWithEmailAndPassword("ad@ad.com","lalala").addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+        mAuth.signInWithEmailAndPassword("ad@ad.com","la456454356446768a").addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
@@ -73,6 +72,7 @@ public class GenerateDBDataFromJSON{
                         Log.d("CalificaProfesoresLogs", "Login!");
                         //deleteMatFrom("1");
                         //addProfessorsDb();
+                        LoadProfessorsId();
                         addMateriasDb();
                     }catch (Exception e){
                         Log.d("CalificaProfesoresLogs","org.json.JSONException");
@@ -205,6 +205,27 @@ public class GenerateDBDataFromJSON{
 
     }
 
+    public void LoadProfessorsId() throws org.json.JSONException {
+        // cargamos el id de los profesores de un archivo json con la información
+        InputStream inputStream = appContext.getResources().openRawResource(R.raw.profesores_with_id);
+        String jsonString = new Scanner(inputStream, "ISO-8859-1").useDelimiter("\\A").next();
+
+        reader = new JSONObject(jsonString);
+
+        JSONArray names = reader.names();
+        for (int i = 0;i < names.length();i++) {
+            String name = names.getString(i);
+            JSONObject object = reader.getJSONObject(name);
+            getProfessorId.put(name, object.getString("id"));
+
+        }
+    }
+
+    // conseguimos el id de un profesor
+    public String getProfId(String profName){
+         return getProfessorId.get(profName);
+    }
+
     public void addMateriasDb() throws org.json.JSONException {
 
         InputStream inputStream = appContext.getResources().openRawResource(R.raw.materias);
@@ -212,21 +233,8 @@ public class GenerateDBDataFromJSON{
 
         reader = new JSONObject(jsonString);
         names = reader.names();
-        professors = new HashMap<>();
 
-        for (int i = 0;i < names.length();i++){
-            final  String name = names.getString(i);
-            JSONObject object = reader.getJSONObject(name);
-
-            JSONArray profList = object.getJSONArray("prof");
-
-            for (int j = 0;j < profList.length();j++){
-                professors.put(profList.getString(j),"");
-            }
-
-        }
-
-        count = 0;
+        /*count = 0;
         // primero calculamos nombres
         for (final String longProfName : professors.keySet()) {
             SearchWordMini searchProfName = new SearchWordMini(longProfName);
@@ -265,7 +273,8 @@ public class GenerateDBDataFromJSON{
                         }
                     });
 
-        }
+        }*/
+        loadMateriasWithProf();
     }
 
     private void loadMateriasWithProf() throws org.json.JSONException {
@@ -286,7 +295,7 @@ public class GenerateDBDataFromJSON{
 
             for (int j = 0;j < profArray.length();j++){
                 String profName = profArray.getString(j);
-                profList.put(professors.get(profName), profName);
+                profList.put(getProfId(profName), profName);
             }
 
             addMateriasDbWithProf(
@@ -313,9 +322,9 @@ public class GenerateDBDataFromJSON{
         //if (professors.size() == length) {
         Log.d("CalificaProfesoresLogs", "Professors:");
 
-       /* for (String profName : professors.keySet()) {
-            Log.d("CalificaProfesoresLogs", profName + " " + professors.get(profName));
-        }*/
+        for (String profName : profList.keySet()) {
+            Log.d("CalificaProfesoresLogs", profName + " " + profList.get(profName));
+        }
 
         Log.d("CalificaProfesoresLogs", "Agregando ...");
         addClassHandler.addClass(new CompleteClassData(

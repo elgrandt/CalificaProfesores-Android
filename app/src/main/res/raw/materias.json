@@ -1,27 +1,4107 @@
 {
-    "Acústica para Ingenieros - 23.05": {
+    "Acústica para Ingenieros 23.05": {
         "Facultad": "Instituto Tecnológico de Buenos Aires",
         "FacultadName": "ITBA",
-        "ShownName": "Acústica para Ingenieros - 23.05",
-        "prof": []
+        "ShownName": "Acústica para Ingenieros 23.05",
+        "prof": [
+            "Del Solar Dorrego Fernando Marcos"
+        ]
     },
-    "Administración de Recursos Humanos - 94.27": {
+    "Administración de Recursos Humanos 94.27": {
         "Facultad": "Instituto Tecnológico de Buenos Aires",
         "FacultadName": "ITBA",
-        "ShownName": "Administración de Recursos Humanos - 94.27",
+        "ShownName": "Administración de Recursos Humanos 94.27",
         "prof": [
             "Pedró Cecilia Angélica",
             "Feld Guido Mariano",
             "González Gainza Maria Florencia"
         ]
     },
-    "Aire Acondicionado y Refrigeración - 31.73": {
+    "Aire Acondicionado y Refrigeración 31.73": {
         "Facultad": "Instituto Tecnológico de Buenos Aires",
         "FacultadName": "ITBA",
-        "ShownName": "Aire Acondicionado y Refrigeración - 31.73",
+        "ShownName": "Aire Acondicionado y Refrigeración 31.73",
         "prof": [
-            "Ilundain Ignacio Hugo",
-            "Garcia Eijo Pedro Manuel"
+            "Ilundain Ignacio Hugo"
+        ]
+    },
+    "Algoritmos y Estructura de Datos 22.08": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Algoritmos y Estructura de Datos 22.08",
+        "prof": [
+            "Jacoby Daniel Andres",
+            "Perez Moreno Agustin Matias",
+            "Ressl Marc S."
+        ]
+    },
+    "Alistamiento Naval 32.56": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Alistamiento Naval 32.56",
+        "prof": [
+            "Fiorentino Norberto Eduardo"
+        ]
+    },
+    "An Introduction to Credit Risk Management 14.78": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "An Introduction to Credit Risk Management 14.78",
+        "prof": []
+    },
+    "Analytics 14.72": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Analytics 14.72",
+        "prof": [
+            "Picabea Julia"
+        ]
+    },
+    "Analítica Descriptiva 82.04": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Analítica Descriptiva 82.04",
+        "prof": []
+    },
+    "Analítica de Redes Sociales 82.13": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Analítica de Redes Sociales 82.13",
+        "prof": []
+    },
+    "Analítica en Recursos Humanos 82.14": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Analítica en Recursos Humanos 82.14",
+        "prof": []
+    },
+    "Analítica en Redes de Telecomunicaciones 82.09": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Analítica en Redes de Telecomunicaciones 82.09",
+        "prof": []
+    },
+    "Analítica en Transporte y Logística 82.10": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Analítica en Transporte y Logística 82.10",
+        "prof": []
+    },
+    "Analítica en Venta Minorista 82.11": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Analítica en Venta Minorista 82.11",
+        "prof": []
+    },
+    "Antenas y Radiopropagacion 22.22": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Antenas y Radiopropagacion 22.22",
+        "prof": [
+            "Muñoz Claudio Marcelo",
+            "Douthat Analia Elizabeth",
+            "Selmo Carlos"
+        ]
+    },
+    "Antropología 94.12": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Antropología 94.12",
+        "prof": [
+            "Diaz Leimbacher Enrique Daniel",
+            "Sansone Bettella Marianela",
+            "Verdenelli Juliana"
+        ]
+    },
+    "Análisis Matemático 93.20": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Análisis Matemático 93.20",
+        "prof": [
+            "Florit Patricia Teresa",
+            "Blanco Vitorero Maria Patricia",
+            "Marti Maria Elisabeth",
+            "Pantazis Lucio José"
+        ]
+    },
+    "Análisis Matemático I 93.26": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Análisis Matemático I 93.26",
+        "prof": [
+            "Mancilla Aguilar Jose Luis",
+            "Blanco Vitorero Maria Patricia",
+            "Fernández Sau Mercedes",
+            "Marti Maria Elisabeth",
+            "Pérez Luciano Alejo"
+        ]
+    },
+    "Análisis Matemático II 93.28": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Análisis Matemático II 93.28",
+        "prof": [
+            "Marti Maria Elisabeth",
+            "Pérez Luciano Alejo",
+            "Álvarez Adrián Omar"
+        ]
+    },
+    "Análisis Predictivo 82.05": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Análisis Predictivo 82.05",
+        "prof": []
+    },
+    "Análisis de Datos 14.92": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Análisis de Datos 14.92",
+        "prof": []
+    },
+    "Análisis de Información Biomédica 82.12": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Análisis de Información Biomédica 82.12",
+        "prof": []
+    },
+    "Análisis de Señales y Sistemas Digitales 22.05": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Análisis de Señales y Sistemas Digitales 22.05",
+        "prof": [
+            "Belaustegui Goitia Carlos F.",
+            "Jacoby Daniel Andres",
+            "Iribarren Rodrigo Iñaki"
+        ]
+    },
+    "Análisis de Transientes de Presión 41.16": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Análisis de Transientes de Presión 41.16",
+        "prof": [
+            "Fondevila Sancet Gastón",
+            "Mayer Bordón Valeria",
+            "Rodriguez Eboli María Magdalena"
+        ]
+    },
+    "Análisis y Diseño de Aplicaciones Informáticas 81.31": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Análisis y Diseño de Aplicaciones Informáticas 81.31",
+        "prof": [
+            "Lucas Ana Maria",
+            "Lalla Juan Ignacio"
+        ]
+    },
+    "Análisis y Modelado de Procesos de Negocios 81.30": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Análisis y Modelado de Procesos de Negocios 81.30",
+        "prof": [
+            "Vidaguren Juan Cornelio",
+            "Hunter Mariana Jennifer",
+            "Falivene Lucas Iván",
+            "Jolly Pablo"
+        ]
+    },
+    "Análisis y Tratamiento de Imágenes 72.52": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Análisis y Tratamiento de Imágenes 72.52",
+        "prof": [
+            "Gambini Maria Juliana"
+        ]
+    },
+    "Análisis y Verificación de Modelos y Códigos 72.72": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Análisis y Verificación de Modelos y Códigos 72.72",
+        "prof": [
+            "Frias Marcelo Fabian"
+        ]
+    },
+    "Aplicación de las Telecomunicaciones 81.08": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Aplicación de las Telecomunicaciones 81.08",
+        "prof": [
+            "Marino Gustavo Adrian",
+            "Restuccia Alejandro"
+        ]
+    },
+    "Aprendizaje Automático (Machine Learning) 72.75": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Aprendizaje Automático (Machine Learning) 72.75",
+        "prof": [
+            "Gambini Maria Juliana",
+            "Santos Juan Miguel"
+        ]
+    },
+    "Arquitectura de Computadoras 72.08": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Arquitectura de Computadoras 72.08",
+        "prof": [
+            "Vallés Santiago Raúl",
+            "Merovich Horacio Víctor"
+        ]
+    },
+    "Arquitectura de la Tecnología Informática 81.56": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Arquitectura de la Tecnología Informática 81.56",
+        "prof": [
+            "Brey Gustavo Andrés",
+            "Paolini Luis Pedro",
+            "Catinello Federico"
+        ]
+    },
+    "Astilleros y Mantenimiento de Buques 32.04": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Astilleros y Mantenimiento de Buques 32.04",
+        "prof": [
+            "Fiorentino Norberto Eduardo",
+            "COLAGIOVANNI FAUSTO"
+        ]
+    },
+    "Auditoría General y de Sistemas 81.46": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Auditoría General y de Sistemas 81.46",
+        "prof": [
+            "Conesa Fernando",
+            "Avendaño Sánchez Diego",
+            "Cora Bogani Santiago Manuel"
+        ]
+    },
+    "Automación Industrial 22.90": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Automación Industrial 22.90",
+        "prof": [
+            "Ghersin Alejandro Simon",
+            "Arias Rodolfo Enrique"
+        ]
+    },
+    "Autómatas, Teoría de Lenguajes y Compiladores 72.39": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Autómatas, Teoría de Lenguajes y Compiladores 72.39",
+        "prof": [
+            "Santos Juan Miguel",
+            "Arias Roig Ana Maria",
+            "Ramele Rodrigo Ezequiel"
+        ]
+    },
+    "Base de Datos I 72.37": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Base de Datos I 72.37",
+        "prof": [
+            "Gomez Leticia Irene",
+            "Soliani Valeria Inés",
+            "Rodriguez Babino Cecilia"
+        ]
+    },
+    "Base de Datos II 72.41": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Base de Datos II 72.41",
+        "prof": [
+            "Aizemberg Diego Ariel",
+            "Rodriguez Babino Cecilia"
+        ]
+    },
+    "Bioestadística 16.43": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Bioestadística 16.43",
+        "prof": [
+            "Santa María Victoria"
+        ]
+    },
+    "Bioinformática 16.21": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Bioinformática 16.21",
+        "prof": [
+            "Cavasotto Claudio",
+            "Yankilevich Patricio",
+            "Breglia Mariano Nicolás"
+        ]
+    },
+    "Biología Molecular y Celular 16.01": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Biología Molecular y Celular 16.01",
+        "prof": [
+            "Baidanoff Fernando Martín",
+            "Esposito Giuliana",
+            "Puente Vanesa Rocío"
+        ]
+    },
+    "Biomateriales 16.12": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Biomateriales 16.12",
+        "prof": [
+            "Miralles Mónica Teresita",
+            "Bonini María Ursula"
+        ]
+    },
+    "Biomecánica 16.13": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Biomecánica 16.13",
+        "prof": [
+            "Carbonell Pablo Raul",
+            "Wray Sandra Alicia"
+        ]
+    },
+    "Biomedicina Estructural y Computacional 16.20": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Biomedicina Estructural y Computacional 16.20",
+        "prof": [
+            "Cavasotto Claudio",
+            "Fernandez María Laura"
+        ]
+    },
+    "Bioquímica y Microbiología 12.08": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Bioquímica y Microbiología 12.08",
+        "prof": [
+            "Pizarro Ramon Augusto",
+            "Meich Veronica Cecilia",
+            "Oppezzo Oscar Juan"
+        ]
+    },
+    "Biosensores 16.19": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Biosensores 16.19",
+        "prof": [
+            "Ahumada Carolina"
+        ]
+    },
+    "Blockchain (Moneda digital descentralizada) 82.07": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Blockchain (Moneda digital descentralizada) 82.07",
+        "prof": []
+    },
+    "Business Model Implementation 14.94": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Business Model Implementation 14.94",
+        "prof": []
+    },
+    "Centrales Eléctricas 21.82": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Centrales Eléctricas 21.82",
+        "prof": [
+            "Morelli Rodriguez Alfredo Enrique"
+        ]
+    },
+    "Ciencia de Materiales I 12.42": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Ciencia de Materiales I 12.42",
+        "prof": [
+            "Rodríguez Aníbal Adrián",
+            "Ibarra María Luján",
+            "Oyarzabal Nicolás Andrés"
+        ]
+    },
+    "Cloud Computing 82.08": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Cloud Computing 82.08",
+        "prof": []
+    },
+    "Comercialización 81.20": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Comercialización 81.20",
+        "prof": [
+            "Almada Jorge",
+            "Fitzgerald Magdalena"
+        ]
+    },
+    "Comercio Electrónico 81.23": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Comercio Electrónico 81.23",
+        "prof": [
+            "Figueroa Horacio",
+            "Varela Paez Hernan Matias",
+            "Palatnik Sebastián"
+        ]
+    },
+    "Comercio Exterior 81.26": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Comercio Exterior 81.26",
+        "prof": [
+            "Berra José María",
+            "Luna Mariano Javier"
+        ]
+    },
+    "Comunicaciones Digitales 22.64": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Comunicaciones Digitales 22.64",
+        "prof": [
+            "Hirchoren Gustavo Abraham",
+            "Rozenbaum Uriel"
+        ]
+    },
+    "Comunicación Estratégica 94.42": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Comunicación Estratégica 94.42",
+        "prof": [
+            "Presas Neira Maria Esperanza",
+            "Pastor Maria Mercedes"
+        ]
+    },
+    "Contabilidad Gerencial 81.11": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Contabilidad Gerencial 81.11",
+        "prof": [
+            "Podmoguilnye Marcelo Gustavo",
+            "Nishimoto Diego",
+            "Velazquez Silvina Ana"
+        ]
+    },
+    "Control Automático 22.93": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Control Automático 22.93",
+        "prof": [
+            "Ghersin Alejandro Simon",
+            "Colombo Sebastián Carlos"
+        ]
+    },
+    "Control Avanzado 23.08": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Control Avanzado 23.08",
+        "prof": [
+            "Sanchez Peña Ricardo Salvador"
+        ]
+    },
+    "Control Discreto 22.94": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Control Discreto 22.94",
+        "prof": [
+            "Ghersin Alejandro Simon",
+            "Colombo Sebastián Carlos"
+        ]
+    },
+    "Control de Procesos 12.40": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Control de Procesos 12.40",
+        "prof": [
+            "Marques Dardo",
+            "Maffi Juan Martín",
+            "Moscoso Vásquez Hilda Marcela",
+            "Szupiany Agustina"
+        ]
+    },
+    "Costos Industriales 61.19": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Costos Industriales 61.19",
+        "prof": [
+            "Pose Eduardo Francisco",
+            "Piantanida Horacio",
+            "Coccolo Pablo Bartolome",
+            "De Miguel Benito Jose",
+            "Igarreta Ramon Santiago",
+            "Dominguez Zoth Martín",
+            "López Sáez José Ignacio"
+        ]
+    },
+    "Creatividad 10.07": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Creatividad 10.07",
+        "prof": [
+            "Arcagni Adolfo Alberto",
+            "García Blanskman Lutmila"
+        ]
+    },
+    "Criptografía y Seguridad 72.44": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Criptografía y Seguridad 72.44",
+        "prof": [
+            "Abad Pablo Eduardo",
+            "Ramele Rodrigo Ezequiel",
+            "Arias Roig Ana Maria"
+        ]
+    },
+    "Data Analytics 72.93": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Data Analytics 72.93",
+        "prof": [
+            "Guerrero Marcela Alejandra",
+            "Gómez Constanza Mariel",
+            "Socolovsky Nicolás Erik"
+        ]
+    },
+    "Deep Learning 23.14": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Deep Learning 23.14",
+        "prof": []
+    },
+    "Deformación y Fractura de Materiales 31.96": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Deformación y Fractura de Materiales 31.96",
+        "prof": [
+            "Zago Miguel Angel",
+            "Rodríguez Aníbal Adrián",
+            "Oyarzabal Nicolás Andrés"
+        ]
+    },
+    "Derecho Aduanero 61.92": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Derecho Aduanero 61.92",
+        "prof": [
+            "Perego Pablo Alejandro",
+            "Blázquez Oscar Gustavo",
+            "Solari Eva Maria Manuela",
+            "Cirillo Karina Elizabeth"
+        ]
+    },
+    "Derecho Público y Privado 61.90": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Derecho Público y Privado 61.90",
+        "prof": [
+            "Perego Pablo Alejandro",
+            "Blázquez Oscar Gustavo",
+            "Larroude Javier Alfredo",
+            "Suárez Gustavo Daniel"
+        ]
+    },
+    "Derecho para Ingenieros 61.31": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Derecho para Ingenieros 61.31",
+        "prof": [
+            "Perego Pablo Alejandro",
+            "Blázquez Oscar Gustavo",
+            "Martín Carolina Elena",
+            "Larroude Javier Alfredo"
+        ]
+    },
+    "Derecho para Ingenieros 61.32": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Derecho para Ingenieros 61.32",
+        "prof": [
+            "Perego Pablo Alejandro",
+            "Blázquez Oscar Gustavo"
+        ]
+    },
+    "Desarrollo de Negocios 41.19": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Desarrollo de Negocios 41.19",
+        "prof": [
+            "Stripeikis Jorge Daniel",
+            "Zandomeni Marcos Alberto",
+            "Zaffore Martín Alejandro"
+        ]
+    },
+    "Desarrollo de Videojuegos 2D en iPhone OS 72.65": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Desarrollo de Videojuegos 2D en iPhone OS 72.65",
+        "prof": [
+            "Lorenzon Jorge Alejandro"
+        ]
+    },
+    "Desarrollo de Yacimientos (Anual) 41.34": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Desarrollo de Yacimientos (Anual) 41.34",
+        "prof": [
+            "Frati Guillermo Romualdo",
+            "De Diego Pablo Antonio",
+            "Shiratori Julio Alfredo",
+            "Peroni Martin Gustavo Oscar"
+        ]
+    },
+    "Diagnóstico Empresario y Plan de Acción ( Trabajo Final ) 81.55": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Diagnóstico Empresario y Plan de Acción ( Trabajo Final ) 81.55",
+        "prof": [
+            "Calveiro Gustavo Oscar",
+            "Alvarez Daniel",
+            "Danio Ariadna",
+            "Fernández Zapiola Francisco José",
+            "Peter Gabriela Paula"
+        ]
+    },
+    "Dinámica del Automóvil 30.38": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Dinámica del Automóvil 30.38",
+        "prof": [
+            "Raffo Federico",
+            "Caunedo Carlos Gabriel"
+        ]
+    },
+    "Dinámica del Automóvil 30.39": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Dinámica del Automóvil 30.39",
+        "prof": [
+            "Raffo Federico",
+            "Caunedo Carlos Gabriel"
+        ]
+    },
+    "Diseño Circular: Sustentabilidad e Innovación en la Cadena de Valor. 14.97": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Diseño Circular: Sustentabilidad e Innovación en la Cadena de Valor. 14.97",
+        "prof": [
+            "Rapela Ana",
+            "Soler María Gabriela"
+        ]
+    },
+    "Diseño Conceptual de Procesos 12.85": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Diseño Conceptual de Procesos 12.85",
+        "prof": [
+            "Fernandez Beatriz Ethel",
+            "Benedetto Enrique José Emilio",
+            "Leskovar Francisco",
+            "Nicola Emiliano"
+        ]
+    },
+    "Diseño Mecánico 30.33": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Diseño Mecánico 30.33",
+        "prof": [
+            "Leslabay Pablo Enrique",
+            "Bonadeo Claudio",
+            "Pfister Patricia Sylvina",
+            "Pontelli Nicolas"
+        ]
+    },
+    "Diseño Mecánico 30.34": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Diseño Mecánico 30.34",
+        "prof": [
+            "Zubiri Juan Ignacio",
+            "Oyarzabal Nicolás Andrés"
+        ]
+    },
+    "Diseño Mecánico 31.20": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Diseño Mecánico 31.20",
+        "prof": [
+            "Pontelli Nicolas"
+        ]
+    },
+    "Diseño Sonoro para Animación y Videojuegos 72.87": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Diseño Sonoro para Animación y Videojuegos 72.87",
+        "prof": [
+            "Ottati Leandro Marcio"
+        ]
+    },
+    "Diseño de Equipos Electrónicos (Anual) 22.31": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Diseño de Equipos Electrónicos (Anual) 22.31",
+        "prof": [
+            "Pingitore Ricardo Alejandro",
+            "Nemirovsky Nicolas Matías",
+            "Orchessi Walter Hugo",
+            "Ugarte Alejandro Rubén"
+        ]
+    },
+    "Diseño de Fármacos 16.29": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Diseño de Fármacos 16.29",
+        "prof": [
+            "Bollini Mariela"
+        ]
+    },
+    "Diseño de Líneas de Transmisión y Estaciones Transformadoras 21.86": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Diseño de Líneas de Transmisión y Estaciones Transformadoras 21.86",
+        "prof": [
+            "Sirabonian Norberto Ildo",
+            "Santo Carlos Santiago"
+        ]
+    },
+    "Diseño de Motores de Combustión Interna 30.36": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Diseño de Motores de Combustión Interna 30.36",
+        "prof": [
+            "Orbaiz Pedro Jose",
+            "Oxenford Nicolás"
+        ]
+    },
+    "Diseño de Motores de Combustión Interna 30.37": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Diseño de Motores de Combustión Interna 30.37",
+        "prof": [
+            "Orbaiz Pedro Jose",
+            "Oxenford Nicolás"
+        ]
+    },
+    "Diseño de Producto 14.77": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Diseño de Producto 14.77",
+        "prof": [
+            "Valentini Leandro Luis"
+        ]
+    },
+    "Diseño y Procesamiento de Documentos XML 72.32": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Diseño y Procesamiento de Documentos XML 72.32",
+        "prof": [
+            "Soliani Valeria Inés",
+            "Fontanella De Santis Teresa Natalia"
+        ]
+    },
+    "Econometría Aplicada 61.30": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Econometría Aplicada 61.30",
+        "prof": [
+            "Calamante Romina",
+            "Orlando Valeria Alejandra"
+        ]
+    },
+    "Economía 61.28": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Economía 61.28",
+        "prof": [
+            "Abayu Jorge Alejandro",
+            "Orlando Valeria Alejandra"
+        ]
+    },
+    "Economía Internacional 61.10": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Economía Internacional 61.10",
+        "prof": [
+            "Abayu Jorge Alejandro"
+        ]
+    },
+    "Economía de la Innovación y la Producción 14.95": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Economía de la Innovación y la Producción 14.95",
+        "prof": [
+            "Orlando Valeria Alejandra"
+        ]
+    },
+    "Economía para Ingenieros 61.23": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Economía para Ingenieros 61.23",
+        "prof": [
+            "Abayu Jorge Alejandro",
+            "Berisso Osvaldo Jorge",
+            "Filgueira Federico José",
+            "Yáñez Esteban Hernan",
+            "Palandella Mauricio Guillermo",
+            "Ventura Julia"
+        ]
+    },
+    "Economía para Ingenieros 61.24": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Economía para Ingenieros 61.24",
+        "prof": [
+            "Coccolo Pablo Bartolome",
+            "Abayu Jorge Alejandro",
+            "Palandella Mauricio Guillermo"
+        ]
+    },
+    "Economía y Finanzas Internacionales 61.40": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Economía y Finanzas Internacionales 61.40",
+        "prof": [
+            "Bacque Nicolas",
+            "Orlando Valeria Alejandra"
+        ]
+    },
+    "El Paradigma NoSQL - Bases de Datos de Grafos 72.92": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "El Paradigma NoSQL - Bases de Datos de Grafos 72.92",
+        "prof": [
+            "Gomez Leticia Irene",
+            "Vaisman Alejandro Ariel"
+        ]
+    },
+    "Electric Cars Technology 14.00": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Electric Cars Technology 14.00",
+        "prof": []
+    },
+    "Electromagnetismo 22.21": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Electromagnetismo 22.21",
+        "prof": [
+            "Marco Patricio Alejandro",
+            "Dobrusin Pablo"
+        ]
+    },
+    "Electromagnetismo 22.37": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Electromagnetismo 22.37",
+        "prof": [
+            "Muñoz Claudio Marcelo",
+            "Dobrusin Pablo"
+        ]
+    },
+    "Electrotecnia 21.06": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Electrotecnia 21.06",
+        "prof": [
+            "Muñoz Claudio Marcelo",
+            "Pingitore Ricardo Alejandro",
+            "Cerfoglio Ernesto Luis"
+        ]
+    },
+    "Electrotecnia 21.08": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Electrotecnia 21.08",
+        "prof": [
+            "Pingitore Ricardo Alejandro",
+            "Carrillo Del Pino Manuel Esteban",
+            "Cerfoglio Ernesto Luis"
+        ]
+    },
+    "Electrotecnia I 22.02": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Electrotecnia I 22.02",
+        "prof": [
+            "Muñoz Claudio Marcelo",
+            "Ayub Gustavo"
+        ]
+    },
+    "Electrónica Analógica y Digital 23.02": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Electrónica Analógica y Digital 23.02",
+        "prof": [
+            "Rodríguez Andrés Carlos",
+            "Pretel Matías Rodolfo"
+        ]
+    },
+    "Electrónica General 23.06": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Electrónica General 23.06",
+        "prof": [
+            "Zuazquita Ricardo Alberto",
+            "Garcia Castellanos Rafael",
+            "Colombo Sebastián Carlos"
+        ]
+    },
+    "Electrónica I 22.11": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Electrónica I 22.11",
+        "prof": [
+            "Alcocer Fernando",
+            "Oreglia Eduardo Victor",
+            "Gardella Pablo Jesús"
+        ]
+    },
+    "Electrónica II 22.12": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Electrónica II 22.12",
+        "prof": [
+            "Hirchoren Gustavo Abraham",
+            "Petrucci Javier David"
+        ]
+    },
+    "Electrónica III 22.13": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Electrónica III 22.13",
+        "prof": [
+            "Aguirre Miguel Pablo",
+            "Dewald Kevin",
+            "Wundes Pablo Enrique"
+        ]
+    },
+    "Electrónica IV 22.14": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Electrónica IV 22.14",
+        "prof": [
+            "Aguirre Miguel Pablo",
+            "Cossutta Pablo Martín",
+            "Weill María Alejandra",
+            "Salvati Matías Damián"
+        ]
+    },
+    "Electrónica V 22.15": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Electrónica V 22.15",
+        "prof": [
+            "Rodríguez Andrés Carlos",
+            "Wundes Pablo Enrique"
+        ]
+    },
+    "Electrónica de Potencia 22.28": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Electrónica de Potencia 22.28",
+        "prof": [
+            "Aguirre Miguel Pablo",
+            "Cossutta Pablo Martín",
+            "Weill María Alejandra",
+            "Salvati Matías Damián"
+        ]
+    },
+    "Electrónica e Instrumentación 22.10": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Electrónica e Instrumentación 22.10",
+        "prof": [
+            "Comastri Hector Adolfo",
+            "Garcia Castellanos Rafael",
+            "Colombo Sebastián Carlos",
+            "Pretel Matías Rodolfo"
+        ]
+    },
+    "Elementos Finitos I 30.07": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Elementos Finitos I 30.07",
+        "prof": [
+            "D´hers Sebastian",
+            "Pontelli Nicolas"
+        ]
+    },
+    "Elementos Finitos II 31.92": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Elementos Finitos II 31.92",
+        "prof": [
+            "D´hers Sebastian"
+        ]
+    },
+    "Elementos de Máquinas 31.04": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Elementos de Máquinas 31.04",
+        "prof": [
+            "Falco Jorge Eduardo",
+            "Leslabay Pablo Enrique",
+            "Polano Francisco José"
+        ]
+    },
+    "Energías Alternativas 21.73": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Energías Alternativas 21.73",
+        "prof": [
+            "Aguirre Ignacio Javier",
+            "Garcia Carlen Alejandro Héctor"
+        ]
+    },
+    "Energías Convencionales 10.12": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Energías Convencionales 10.12",
+        "prof": [
+            "Lezama Juan Marcelo",
+            "Locreille Pedro Agustín",
+            "Siroit Gaston"
+        ]
+    },
+    "Energías Renovables 10.08": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Energías Renovables 10.08",
+        "prof": [
+            "Lezama Juan Marcelo",
+            "Durán Guillermo Enrique",
+            "Turturro Gastón Andrés",
+            "Siroit Gaston"
+        ]
+    },
+    "Energías Renovables con Aprendizaje Comunitario 10.13": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Energías Renovables con Aprendizaje Comunitario 10.13",
+        "prof": [
+            "Lezama Juan Marcelo",
+            "Durán Guillermo Enrique"
+        ]
+    },
+    "Energías Renovables con Aprendizaje Comunitario Extendido 15.04": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Energías Renovables con Aprendizaje Comunitario Extendido 15.04",
+        "prof": [
+            "Lezama Juan Marcelo",
+            "Vazquez Germán Ezequiel"
+        ]
+    },
+    "Ensayos de Materiales 31.16": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Ensayos de Materiales 31.16",
+        "prof": [
+            "Zago Miguel Angel",
+            "Oyarzabal Nicolás Andrés"
+        ]
+    },
+    "Epistemología y Heurística 94.63": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Epistemología y Heurística 94.63",
+        "prof": [
+            "Sodor Diego Pablo",
+            "Cavallo Pedro Cosme"
+        ]
+    },
+    "Español Intensivo B2 99.57": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Español Intensivo B2 99.57",
+        "prof": []
+    },
+    "Español Lengua Segunda B1 99.51": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Español Lengua Segunda B1 99.51",
+        "prof": [
+            "Gonzalez Ferro Ana Maria",
+            "Colombo Agustina"
+        ]
+    },
+    "Español Lengua Segunda B2 99.52": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Español Lengua Segunda B2 99.52",
+        "prof": [
+            "Gonzalez Ferro Ana Maria",
+            "Gallo Haddad Daniela"
+        ]
+    },
+    "Español Lengua Segunda C1 99.56": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Español Lengua Segunda C1 99.56",
+        "prof": [
+            "Gonzalez Ferro Ana Maria",
+            "Gallo Haddad Daniela"
+        ]
+    },
+    "Español Lengua Segunda C2 99.54": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Español Lengua Segunda C2 99.54",
+        "prof": [
+            "Gonzalez Ferro Ana Maria",
+            "Gallo Haddad Daniela",
+            "Straccia Luciano",
+            "Pryor Sabrina"
+        ]
+    },
+    "Español Semi-intensivo para Extranjeros B1 94.57": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Español Semi-intensivo para Extranjeros B1 94.57",
+        "prof": []
+    },
+    "Español Semi-intensivo para Extranjeros B2 94.58": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Español Semi-intensivo para Extranjeros B2 94.58",
+        "prof": []
+    },
+    "Español intensivo para extranjeros A2 94.54": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Español intensivo para extranjeros A2 94.54",
+        "prof": [
+            "Gonzalez Ferro Ana Maria"
+        ]
+    },
+    "Español intensivo para extranjeros B1 94.55": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Español intensivo para extranjeros B1 94.55",
+        "prof": [
+            "Gonzalez Ferro Ana Maria",
+            "Gallo Haddad Daniela",
+            "De Feo María Florencia"
+        ]
+    },
+    "Estadística 93.39": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Estadística 93.39",
+        "prof": [
+            "Galibert Maria Silvia",
+            "Alvarez Ponte Lucia Ines",
+            "Auné Sofía Esmeralda"
+        ]
+    },
+    "Estadística Aplicada I 11.77": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Estadística Aplicada I 11.77",
+        "prof": [
+            "Bursky Jorge Cesar Carlos",
+            "Bus Ana Gabriela",
+            "Wang John Yongmin"
+        ]
+    },
+    "Estadística Aplicada II 11.78": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Estadística Aplicada II 11.78",
+        "prof": [
+            "Bursky Jorge Cesar Carlos",
+            "De Zan Arturo T.",
+            "Bus Ana Gabriela",
+            "Cosatto Ammann Pedro Camilo"
+        ]
+    },
+    "Estrategia Empresaria 81.41": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Estrategia Empresaria 81.41",
+        "prof": [
+            "Gosende María Dolores",
+            "Bordoy Gabriela Veronica",
+            "Lopes Perera Sebastian",
+            "Zinovich Federico Gabriel"
+        ]
+    },
+    "Estructura de Buques 32.49": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Estructura de Buques 32.49",
+        "prof": [
+            "Vazquez Gustavo Alejandro",
+            "Medina Pablo Alberto"
+        ]
+    },
+    "Estructura de Datos y Algoritmos 72.34": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Estructura de Datos y Algoritmos 72.34",
+        "prof": [
+            "Gomez Leticia Irene",
+            "Nardini Gonzalo Martín"
+        ]
+    },
+    "Estructura de Datos y Programación 71.44": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Estructura de Datos y Programación 71.44",
+        "prof": [
+            "Titiosky Rolando",
+            "De Armas Adrián"
+        ]
+    },
+    "Estructura de Datos y Programación 71.45": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Estructura de Datos y Programación 71.45",
+        "prof": [
+            "Delgado Bolivar Ninfa Esperanza"
+        ]
+    },
+    "Estructura de las Organizaciones 94.40": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Estructura de las Organizaciones 94.40",
+        "prof": [
+            "Calamante Romina",
+            "Pedró Cecilia Angélica",
+            "Valledor Duco Juan Maria"
+        ]
+    },
+    "Estructuras Automotrices 31.84": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Estructuras Automotrices 31.84",
+        "prof": [
+            "Raffo Federico",
+            "Barbier Eduardo Eugenio"
+        ]
+    },
+    "Estática 31.34": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Estática 31.34",
+        "prof": [
+            "Barbier Eduardo Eugenio",
+            "Medina Pablo Alberto"
+        ]
+    },
+    "Estática y Resistencia de Materiales 31.19": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Estática y Resistencia de Materiales 31.19",
+        "prof": [
+            "Ferrari Francisco Javier",
+            "Porcellana Jorge Alberto",
+            "Sarpero Carlos Jorge",
+            "Martínez Daniel",
+            "Roldan Lisandro Agustín"
+        ]
+    },
+    "Fenómenos de Transporte 12.16": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Fenómenos de Transporte 12.16",
+        "prof": [
+            "Estenoz Diana Alejandra",
+            "Berkenwald Emilio"
+        ]
+    },
+    "Filosofía 94.61": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Filosofía 94.61",
+        "prof": [
+            "Giuliano Héctor Gustavo",
+            "Maselli Delia Silvia",
+            "Herrera María Eugenia"
+        ]
+    },
+    "Finanzas de la Empresa 61.50": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Finanzas de la Empresa 61.50",
+        "prof": [
+            "Coccolo Pablo Bartolome",
+            "Lelic Rifat",
+            "Yáñez Esteban Hernan"
+        ]
+    },
+    "Fisiología 16.03": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Fisiología 16.03",
+        "prof": [
+            "Lazzarino Carlos",
+            "Carpaneto Freixas Agustín Eduardo"
+        ]
+    },
+    "Fisiología Cuantitativa 16.14": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Fisiología Cuantitativa 16.14",
+        "prof": [
+            "Riquelme Luis",
+            "Caffaro Pedro",
+            "Tajerian Matías Nazareth"
+        ]
+    },
+    "Formación General I 94.21": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Formación General I 94.21",
+        "prof": [
+            "Diaz Leimbacher Enrique Daniel",
+            "Calamante Romina",
+            "Cravino Ana Maria",
+            "Roldan Juan Eduardo"
+        ]
+    },
+    "Formación General II 23.10": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Formación General II 23.10",
+        "prof": []
+    },
+    "Formación General II 41.38": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Formación General II 41.38",
+        "prof": [
+            "De Diego Pablo Antonio",
+            "Podeley Oliva Matias Gustavo Marcos",
+            "Taccone Diego",
+            "Pretzel Federico Jorge"
+        ]
+    },
+    "Formación General II 94.28": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Formación General II 94.28",
+        "prof": [
+            "Magro Adriana Edith",
+            "Mendizabal Federico Manuel"
+        ]
+    },
+    "Formación General III 94.23": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Formación General III 94.23",
+        "prof": [
+            "Calamante Romina",
+            "Pedró Cecilia Angélica",
+            "Valledor Duco Juan Maria",
+            "Iafreffe Marina"
+        ]
+    },
+    "Formación para Emprendedores 10.09": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Formación para Emprendedores 10.09",
+        "prof": [
+            "García Poitevin Catalina",
+            "Varela Paez Hernan Matias",
+            "Balcazar Federico",
+            "Castagnino Nicolas",
+            "Castelli Guillermo",
+            "Chicote Marcos José",
+            "Hokama Mariano Andres",
+            "Iribarren Rodrigo Iñaki",
+            "Sabignoso Przylucki Leandro Esteban",
+            "Shulz Matías"
+        ]
+    },
+    "Formulación y Evaluación de Proyectos 11.89": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Formulación y Evaluación de Proyectos 11.89",
+        "prof": [
+            "Viaro Leandro Juan",
+            "Hannemann Ricardo E.",
+            "Lezama Juan Marcelo",
+            "Rancan Claudio Jorge",
+            "Vilaboa Ivan Gonzalo"
+        ]
+    },
+    "Framing: How Politicians Debate 14.83": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Framing: How Politicians Debate 14.83",
+        "prof": []
+    },
+    "Física Electrónica 23.09": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Física Electrónica 23.09",
+        "prof": [
+            "Baez Eduardo Diocles",
+            "Cesaretti Juan Manuel",
+            "Douthat Analia Elizabeth",
+            "Gardella Pablo Jesús"
+        ]
+    },
+    "Física I 93.41": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Física I 93.41",
+        "prof": [
+            "Delellis Roberto Daniel",
+            "Diaz Alejandro Raul",
+            "Carnovale Elsa Beatriz",
+            "Hikawczuk Pablo Alejandro",
+            "Medus Andrés Daniel",
+            "Perotti Marcelo Gustavo",
+            "Varone Guillermo Jose",
+            "Di Lorenzo Francisco Javier",
+            "Gigli Miriam Laura",
+            "Lopez Daniel Marcelo",
+            "Marmora Jessica Yamila",
+            "Fernández Arancibia Sol María"
+        ]
+    },
+    "Física II 93.42": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Física II 93.42",
+        "prof": [
+            "Gigli Miriam Laura",
+            "Hikawczuk Pablo Alejandro",
+            "König Pablo Germán",
+            "Varone Guillermo Jose",
+            "Hugo Alberto Aita",
+            "Palazzo Edgardo",
+            "Bonazzola Carlos",
+            "Chiaramonte Mariano",
+            "Duvidovich Laura",
+            "Granado Mauro"
+        ]
+    },
+    "Física II 93.53": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Física II 93.53",
+        "prof": [
+            "Hikawczuk Pablo Alejandro",
+            "König Pablo Germán",
+            "Varone Guillermo Jose",
+            "Santos Noelia Ayelén"
+        ]
+    },
+    "Física III 93.43": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Física III 93.43",
+        "prof": [
+            "Rinaldi Horacio Daniel",
+            "Alessio Maria Gabriela",
+            "Berlin Guido",
+            "Hikawczuk Pablo Alejandro",
+            "Medus Andrés Daniel",
+            "Minces Pablo Sebastián",
+            "Oreglia Eduardo Victor",
+            "Sinardi Norberto Antonio",
+            "Varone Guillermo Jose",
+            "Di Lorenzo Francisco Javier",
+            "Fernandez Fernando Sergio",
+            "Hugo Alberto Aita",
+            "Londoño Calderón César Leandro",
+            "Canatelli Axel",
+            "Gaggioli Enzo Leopoldo",
+            "Lopez Lucía F."
+        ]
+    },
+    "Física IV 93.44": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Física IV 93.44",
+        "prof": [
+            "Rinaldi Horacio Daniel",
+            "Agaliotis Eliana Mabel",
+            "Alessio Maria Gabriela",
+            "Hikawczuk Pablo Alejandro",
+            "Medus Andrés Daniel",
+            "Rinaldi Miguel Angel",
+            "Varone Guillermo Jose",
+            "Londoño Calderón César Leandro",
+            "Marmora Jessica Yamila"
+        ]
+    },
+    "Física Médica 16.44": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Física Médica 16.44",
+        "prof": [
+            "Solano Agustín Benjamín Ezequiel"
+        ]
+    },
+    "Física y Mecánica de Aceros 31.95": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Física y Mecánica de Aceros 31.95",
+        "prof": [
+            "Rodríguez Aníbal Adrián",
+            "García Javier Alejandro"
+        ]
+    },
+    "Gas y Gasolina Natural 41.15": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Gas y Gasolina Natural 41.15",
+        "prof": [
+            "Casares Carlos Alberto Maria",
+            "de la Zerda María Agustina"
+        ]
+    },
+    "Geoestadística 41.29": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Geoestadística 41.29",
+        "prof": [
+            "Saccomano Alejandro"
+        ]
+    },
+    "Geofísica de Reservorios 41.18": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Geofísica de Reservorios 41.18",
+        "prof": [
+            "Frati Guillermo Romualdo",
+            "Crovetto Carolina Beatriz",
+            "Flores Gonzalo"
+        ]
+    },
+    "Geología del Petróleo 41.05": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Geología del Petróleo 41.05",
+        "prof": [
+            "Stinco Luis Pedro",
+            "Martín Lucía Inés"
+        ]
+    },
+    "Geología para Ingenieros 41.32": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Geología para Ingenieros 41.32",
+        "prof": [
+            "Stripeikis Jorge Daniel",
+            "Drosina Marina del Valle",
+            "Sosa Massaro Agustín Pablo",
+            "Vocaturo Griselda Natalia",
+            "Martín Lucía Inés"
+        ]
+    },
+    "Gestión Ambiental 10.02": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Gestión Ambiental 10.02",
+        "prof": [
+            "Hannemann Ricardo E.",
+            "Rosemberg Adrián Alberto",
+            "Fernández Leandro",
+            "Gonzalez Eiras Gimena",
+            "Márquez Padilla Samantha"
+        ]
+    },
+    "Gestión Financiera 61.12": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Gestión Financiera 61.12",
+        "prof": [
+            "Coccolo Pablo Bartolome",
+            "Abayu Jorge Alejandro"
+        ]
+    },
+    "Gestión de Calidad 11.76": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Gestión de Calidad 11.76",
+        "prof": [
+            "De Zan Arturo T.",
+            "Bielsa Raquel Ofelia",
+            "Díaz Teresa",
+            "Monteverde Miguel Eugenio",
+            "Siquiroff Braunstein Mariela Sabrina",
+            "Piccioli Andrés",
+            "Salinas de Vita Sergio Alejandro"
+        ]
+    },
+    "Gestión de Datos 71.88": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Gestión de Datos 71.88",
+        "prof": [
+            "Guerrero Marcela Alejandra",
+            "Segarra Gonzalo",
+            "Cotton Lucas Gabriel",
+            "Socolovsky Nicolás Erik"
+        ]
+    },
+    "Gestión de Energías Convencionales - Petróleo 15.00": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Gestión de Energías Convencionales - Petróleo 15.00",
+        "prof": [
+            "Lezama Juan Marcelo"
+        ]
+    },
+    "Gestión de Energías Convencionales -Gas- 15.02": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Gestión de Energías Convencionales -Gas- 15.02",
+        "prof": [
+            "Lezama Juan Marcelo",
+            "Locreille Pedro Agustín"
+        ]
+    },
+    "Gestión de Operaciones 11.83": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Gestión de Operaciones 11.83",
+        "prof": [
+            "Soto Marcela Fabiana",
+            "Domínguez Juan Manuel"
+        ]
+    },
+    "Gestión de Organizaciones Sociales 94.13": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Gestión de Organizaciones Sociales 94.13",
+        "prof": [
+            "Calamante Romina",
+            "Demattei Clarisa Rosario",
+            "Díaz Ortiz Sol"
+        ]
+    },
+    "Gestión de Proyectos 11.84": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Gestión de Proyectos 11.84",
+        "prof": [
+            "Del Campo Pedro",
+            "Hannemann Ricardo E."
+        ]
+    },
+    "Gestión de Proyectos Informáticos 72.43": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Gestión de Proyectos Informáticos 72.43",
+        "prof": [
+            "Mon Alicia Laura",
+            "Carrodani Luz Maria Isabel"
+        ]
+    },
+    "Gestión de Proyectos Mecánicos 30.35": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Gestión de Proyectos Mecánicos 30.35",
+        "prof": [
+            "Mariano C. Francioni",
+            "Gelso Lautaro"
+        ]
+    },
+    "Gestión de Ventas 81.21": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Gestión de Ventas 81.21",
+        "prof": [
+            "Garagarza José Alejandro",
+            "Hutter Santiago",
+            "Mera Mariano"
+        ]
+    },
+    "Gestión de los Recursos Humanos 94.41": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Gestión de los Recursos Humanos 94.41",
+        "prof": [
+            "Pedró Cecilia Angélica",
+            "Feld Guido Mariano",
+            "González Gainza Maria Florencia"
+        ]
+    },
+    "Gestión del Ciclo de Vida de la Información 82.03": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Gestión del Ciclo de Vida de la Información 82.03",
+        "prof": []
+    },
+    "Gestión y Sistemas de Información de la Logística Internacional 81.64": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Gestión y Sistemas de Información de la Logística Internacional 81.64",
+        "prof": [
+            "Chevillard Hector Oscar",
+            "Giménez Haupt Lucas",
+            "Backis Vanina Cecilia"
+        ]
+    },
+    "Hidrostática y Estabilidad 32.66": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Hidrostática y Estabilidad 32.66",
+        "prof": [
+            "Cabrera Anibal Omar",
+            "Koczan Jonatan Ariel"
+        ]
+    },
+    "Hidráulica, Neumática y PLC 31.66": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Hidráulica, Neumática y PLC 31.66",
+        "prof": [
+            "Leslabay Pablo Enrique",
+            "Bonadeo Claudio",
+            "Fortunatti Nelson Ariel"
+        ]
+    },
+    "Histología y Anatomía 16.02": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Histología y Anatomía 16.02",
+        "prof": [
+            "Lazzarino Carlos",
+            "Santa María Victoria"
+        ]
+    },
+    "Impuestos 81.27": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Impuestos 81.27",
+        "prof": [
+            "García Juan Carlos",
+            "Oyola Natalia Andrea"
+        ]
+    },
+    "Industrialización y Economía Petrolera 12.30": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Industrialización y Economía Petrolera 12.30",
+        "prof": [
+            "Popik Pablo Ricardo",
+            "D´Ascoli Hernan Dario David",
+            "Ferrarese Valentin"
+        ]
+    },
+    "Industrias Químicas 12.77": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Industrias Químicas 12.77",
+        "prof": [
+            "Fredes Luis Edgardo",
+            "Ceballos Juan Pablo",
+            "Vincenti Agustín Aldo"
+        ]
+    },
+    "Informática General 71.20": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Informática General 71.20",
+        "prof": [
+            "Arias Roig Ana Maria",
+            "Delgado Bolivar Ninfa Esperanza",
+            "Vazquez Santiago José"
+        ]
+    },
+    "Informática General 71.55": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Informática General 71.55",
+        "prof": [
+            "Buquete Maria Alejandra",
+            "Diaz Laura Ines",
+            "Olcese Alfredo Alberto",
+            "Gómez Constanza Mariel"
+        ]
+    },
+    "Informática Médica 16.22": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Informática Médica 16.22",
+        "prof": [
+            "Luna Daniel Roberto"
+        ]
+    },
+    "Ingenieria de Reacciones y Reactores I 12.24": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Ingenieria de Reacciones y Reactores I 12.24",
+        "prof": [
+            "Rausei Diego Nicasio",
+            "Dwek Martina",
+            "Di Lisio Martín",
+            "Raynoldi Ignacio Rubén"
+        ]
+    },
+    "Ingenieria de Software I 72.35": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Ingenieria de Software I 72.35",
+        "prof": [
+            "Buquete Maria Alejandra",
+            "Titiosky Rolando",
+            "Grandes David"
+        ]
+    },
+    "Ingenieria del Software II 72.40": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Ingenieria del Software II 72.40",
+        "prof": [
+            "Sotuyo Dodero Juan Martin",
+            "García Guillermo"
+        ]
+    },
+    "Ingeniería Hospitalaria 16.33": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Ingeniería Hospitalaria 16.33",
+        "prof": [
+            "Paschetta Federico",
+            "Acosta Marco"
+        ]
+    },
+    "Ingeniería de Rehabilitación 16.24": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Ingeniería de Rehabilitación 16.24",
+        "prof": [
+            "Mouriño Bárbara",
+            "Bonini María Ursula"
+        ]
+    },
+    "Ingeniería de Reservorios 41.09": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Ingeniería de Reservorios 41.09",
+        "prof": [
+            "Bugari Alvaro",
+            "Cremonini Andres Santiago",
+            "Menghi Constanza",
+            "Salvia Santiago Andres"
+        ]
+    },
+    "Ingeniería de Tejidos 16.27": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Ingeniería de Tejidos 16.27",
+        "prof": [
+            "Baidanoff Fernando Martín",
+            "Esposito Giuliana"
+        ]
+    },
+    "Ingles III 94.53": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Ingles III 94.53",
+        "prof": [
+            "Gonzalez Ferro Ana Maria"
+        ]
+    },
+    "Inglés I (analista) 94.90": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Inglés I (analista) 94.90",
+        "prof": [
+            "Gonzalez Ferro Ana Maria",
+            "Frescura Toloza Claudio Daniel"
+        ]
+    },
+    "Inglés I 94.51": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Inglés I 94.51",
+        "prof": [
+            "Gonzalez Ferro Ana Maria",
+            "Frescura Toloza Claudio Daniel"
+        ]
+    },
+    "Inglés II (licenciado) 94.91": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Inglés II (licenciado) 94.91",
+        "prof": [
+            "Gonzalez Ferro Ana Maria",
+            "Frescura Toloza Claudio Daniel"
+        ]
+    },
+    "Inglés II 94.52": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Inglés II 94.52",
+        "prof": [
+            "Gonzalez Ferro Ana Maria"
+        ]
+    },
+    "Instalaciones Eléctricas 21.10": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Instalaciones Eléctricas 21.10",
+        "prof": [
+            "Santo Carlos Santiago",
+            "Giobellina Héctor José",
+            "Roma José",
+            "Vallone Francisco Gabriel"
+        ]
+    },
+    "Instalaciones Eléctricas 21.41": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Instalaciones Eléctricas 21.41",
+        "prof": []
+    },
+    "Instalaciones Eléctricas 21.44": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Instalaciones Eléctricas 21.44",
+        "prof": [
+            "Santo Carlos Santiago",
+            "Giobellina Héctor José",
+            "Roma José"
+        ]
+    },
+    "Instalaciones Industriales 31.68": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Instalaciones Industriales 31.68",
+        "prof": [
+            "Gelso Lautaro",
+            "Bagozzi Leonardo Nicolás",
+            "Brambilla Carlos Javier"
+        ]
+    },
+    "Instalaciones Térmicas 30.03": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Instalaciones Térmicas 30.03",
+        "prof": [
+            "Celani Vicente Fidel",
+            "Mariano C. Francioni",
+            "Wray Sandra Alicia"
+        ]
+    },
+    "Instrumentación Biomédica I 16.17": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Instrumentación Biomédica I 16.17",
+        "prof": [
+            "Madorno Matias",
+            "Garayalde Damián Alejandro",
+            "Racca Dora María"
+        ]
+    },
+    "Instrumentación Biomédica II 16.18": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Instrumentación Biomédica II 16.18",
+        "prof": [
+            "Madorno Matias",
+            "Szlain Darío",
+            "Racca Dora María"
+        ]
+    },
+    "Instrumentación y Control Industrial 22.73": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Instrumentación y Control Industrial 22.73",
+        "prof": [
+            "Nemirovsky Nicolas Matías",
+            "Colombo Sebastián Carlos"
+        ]
+    },
+    "Integración de Procesos de Negocios y Aplicaciones Informáticas 81.38": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Integración de Procesos de Negocios y Aplicaciones Informáticas 81.38",
+        "prof": [
+            "Cardarelli Santiago",
+            "Maglione Juan Martín"
+        ]
+    },
+    "Integración de Sistemas de Información 72.71": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Integración de Sistemas de Información 72.71",
+        "prof": [
+            "Benitez Mariano Miguel Guillermo"
+        ]
+    },
+    "Integrated Mechanical Design - From CAE to CAM 30.98": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Integrated Mechanical Design - From CAE to CAM 30.98",
+        "prof": []
+    },
+    "Integridad Estructural 31.90": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Integridad Estructural 31.90",
+        "prof": [
+            "Rodríguez Aníbal Adrián",
+            "Navajas Ahumada javier Eduardo"
+        ]
+    },
+    "Interacción Hombre-Computadora (HCI) 72.36": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Interacción Hombre-Computadora (HCI) 72.36",
+        "prof": [
+            "Dolagaratz Gonzalo Matias",
+            "Guerrero Marcela Alejandra"
+        ]
+    },
+    "Introducción a Estrategia 14.61": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Introducción a Estrategia 14.61",
+        "prof": [
+            "Masjuan Nicolas"
+        ]
+    },
+    "Introducción a la Administración 81.06": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Introducción a la Administración 81.06",
+        "prof": [
+            "Vidaguren Juan Cornelio",
+            "Bordoy Gabriela Veronica",
+            "Sigal Mariana Paula"
+        ]
+    },
+    "Introducción a la Bioinformática 16.50": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Introducción a la Bioinformática 16.50",
+        "prof": [
+            "Yankilevich Patricio",
+            "Breglia Mariano Nicolás"
+        ]
+    },
+    "Introducción a la Computación 22.06": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Introducción a la Computación 22.06",
+        "prof": [
+            "Rodríguez Andrés Carlos",
+            "Figueyra Diego Fernando",
+            "Pretel Matías Rodolfo"
+        ]
+    },
+    "Introducción a la Consultoría 14.14": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Introducción a la Consultoría 14.14",
+        "prof": []
+    },
+    "Introducción a la Informática 72.03": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Introducción a la Informática 72.03",
+        "prof": [
+            "Buquete Maria Alejandra",
+            "Turrin Marcelo Emiliano"
+        ]
+    },
+    "Introducción a la Ingeniería Ambiental 12.84": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Introducción a la Ingeniería Ambiental 12.84",
+        "prof": [
+            "Aude Luppi Vergenie Edith",
+            "Affranchino Gustavo Osvaldo"
+        ]
+    },
+    "Introducción a la Ingeniería Química 12.10": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Introducción a la Ingeniería Química 12.10",
+        "prof": [
+            "Aude Luppi Vergenie Edith",
+            "Maffi Juan Martín"
+        ]
+    },
+    "Introducción a la Licenciatura en Adm y Sistemas 81.02": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Introducción a la Licenciatura en Adm y Sistemas 81.02",
+        "prof": [
+            "Vidaguren Juan Cornelio",
+            "Bordoy Gabriela Veronica",
+            "Sigal Mariana Paula"
+        ]
+    },
+    "Introducción a la Programación 71.57": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Introducción a la Programación 71.57",
+        "prof": [
+            "De Armas Adrián",
+            "Polano Francisco José",
+            "Fortunatti Nelson Ariel"
+        ]
+    },
+    "Introducción a los Sistemas Embebidos 72.94": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Introducción a los Sistemas Embebidos 72.94",
+        "prof": []
+    },
+    "Introducción al Desarrollo de Videojuegos 72.50": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Introducción al Desarrollo de Videojuegos 72.50",
+        "prof": [
+            "Ruiz Diego Gabriel",
+            "Donato Juan Facundo",
+            "Romarion Germán Rodrigo"
+        ]
+    },
+    "Introducción al Español 99.50": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Introducción al Español 99.50",
+        "prof": [
+            "Gonzalez Ferro Ana Maria",
+            "Gallo Haddad Daniela",
+            "De Feo María Florencia"
+        ]
+    },
+    "Investigación de Operaciones I 11.86": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Investigación de Operaciones I 11.86",
+        "prof": [
+            "López Hermann Gustavo Alberto",
+            "Peñalva Leandro",
+            "Vilaboa Ivan Gonzalo",
+            "Lopez Franco Nicolas Leonardo",
+            "Silva Micaela Romina",
+            "Zaia Marina Florencia",
+            "Wang John Yongmin"
+        ]
+    },
+    "Investigación de Operaciones II 11.87": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Investigación de Operaciones II 11.87",
+        "prof": [
+            "Arakaki Gaston Nicolas",
+            "Vilaboa Ivan Gonzalo",
+            "Lastra Ortelli Gregorio Juan Valentin",
+            "Acuña Gonzalo Manuel",
+            "Belocopitow Federico Javier",
+            "Bianchi Tomás Agustín",
+            "Gostuski Ladislao Paul",
+            "Remacha Gonzalo Hernán",
+            "Sinopoli Antonella",
+            "Wang John Yongmin"
+        ]
+    },
+    "La Evolución de la Calidad y la Mejora Continua 14.24": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "La Evolución de la Calidad y la Mejora Continua 14.24",
+        "prof": [
+            "Siquiroff Braunstein Mariela Sabrina"
+        ]
+    },
+    "Lab. de Microprocesadores 22.99": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Lab. de Microprocesadores 22.99",
+        "prof": [
+            "Jacoby Daniel Andres",
+            "Magliola Nicolas",
+            "Ismirlian Diego Matías"
+        ]
+    },
+    "Laboratorio Avanzado de Materiales 31.98": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Laboratorio Avanzado de Materiales 31.98",
+        "prof": [
+            "Rodríguez Aníbal Adrián"
+        ]
+    },
+    "Laboratorio de Control de Procesos 12.41": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Laboratorio de Control de Procesos 12.41",
+        "prof": [
+            "Marques Dardo",
+            "Moscoso Vásquez Hilda Marcela",
+            "Matus Juan Luis Angel",
+            "Szupiany Agustina"
+        ]
+    },
+    "Laboratorio de Dsp_fpga 22.49": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Laboratorio de Dsp_fpga 22.49",
+        "prof": [
+            "Jacoby Daniel Andres",
+            "Totorica Luis Andrés"
+        ]
+    },
+    "Laboratorio de Electrónica 22.42": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Laboratorio de Electrónica 22.42",
+        "prof": [
+            "Cossutta Pablo Martín",
+            "Weill María Alejandra",
+            "Salvati Matías Damián"
+        ]
+    },
+    "Lean Manufacturing 14.46": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Lean Manufacturing 14.46",
+        "prof": [
+            "Montaldo Maria Belen"
+        ]
+    },
+    "Lean Six Sigma White Belt 14.59": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Lean Six Sigma White Belt 14.59",
+        "prof": [
+            "Siquiroff Braunstein Mariela Sabrina"
+        ]
+    },
+    "Living Supply Chain 14.88": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Living Supply Chain 14.88",
+        "prof": [
+            "Guereta Tadei Tamara Estefanía",
+            "Rodriguez Gustavo Eduardo",
+            "Gotter Campo Patricio Guillermo"
+        ]
+    },
+    "Logística 11.59": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Logística 11.59",
+        "prof": [
+            "Lopez Martí Juan Carlos",
+            "Ochner Enrique Eduardo",
+            "Brandi Teresa",
+            "Laurnagaray Tomas",
+            "Lopez Escriva Gonzalo Enrique",
+            "Campetella Mayoral Carla",
+            "Domingo Alejandro Javier",
+            "Frias María Elisa",
+            "Murekian Ary Dicran"
+        ]
+    },
+    "Lógica Computacional 93.35": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Lógica Computacional 93.35",
+        "prof": [
+            "Noni Maria Laura",
+            "Fernández Sau Mercedes",
+            "Rean Mariano"
+        ]
+    },
+    "Macroeconomía 61.82": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Macroeconomía 61.82",
+        "prof": [
+            "Abayu Jorge Alejandro",
+            "Berisso Osvaldo Jorge"
+        ]
+    },
+    "Mantenimiento Industrial 30.23": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Mantenimiento Industrial 30.23",
+        "prof": [
+            "Mariano C. Francioni",
+            "Belmudes Tomás Luciano Martín"
+        ]
+    },
+    "Mantenimiento de Máquinas e Instalaciones Eléctricas 21.72": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Mantenimiento de Máquinas e Instalaciones Eléctricas 21.72",
+        "prof": []
+    },
+    "Manufactura 30.05": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Manufactura 30.05",
+        "prof": []
+    },
+    "Marketing 11.39": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Marketing 11.39",
+        "prof": [
+            "Bonfanti Alejandro A. M. J",
+            "Testorelli Guillermo Alejandro"
+        ]
+    },
+    "Marketing Internacional 81.63": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Marketing Internacional 81.63",
+        "prof": [
+            "Almada Jorge",
+            "Fitzgerald Magdalena"
+        ]
+    },
+    "Matemática Aplicada 82.15": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Matemática Aplicada 82.15",
+        "prof": [
+            "González Rodríguez Rafael Ricardo",
+            "Valledor Duco Juan Maria"
+        ]
+    },
+    "Matemática Discreta 93.16": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Matemática Discreta 93.16",
+        "prof": [
+            "Delellis Roberto Daniel",
+            "Galibert Maria Silvia"
+        ]
+    },
+    "Matemática Discreta 93.59": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Matemática Discreta 93.59",
+        "prof": [
+            "Orecchia Monica Ines",
+            "Pardal Nina",
+            "Crespo Alvaro Andrés"
+        ]
+    },
+    "Matemática I 93.17": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Matemática I 93.17",
+        "prof": [
+            "Mancilla Aguilar Jose Luis",
+            "Florit Patricia Teresa",
+            "Fernández Sau Mercedes",
+            "Fraga Claudia Elsa",
+            "Garcia Serrano Silvina Aida",
+            "Muñoz Andrés Leandro",
+            "Pérez Luciano Alejo",
+            "Sabella Liliana Lidia",
+            "Sirczuk Diana Graciela",
+            "Benítez Oscar Matías",
+            "Fages Luciano Rodolfo",
+            "Soria Sasias Adrián Marcelo"
+        ]
+    },
+    "Matemática II 93.02": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Matemática II 93.02",
+        "prof": [
+            "Peña Nelly Haydee",
+            "Noni Maria Laura",
+            "Bucello Pablo Augusto",
+            "Fernández Sau Mercedes",
+            "Fraga Claudia Elsa",
+            "Pérez Luciano Alejo",
+            "Sabella Liliana Lidia",
+            "Schmidberg Pablo Esteban",
+            "Soria Sasias Adrián Marcelo"
+        ]
+    },
+    "Matemática III 93.03": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Matemática III 93.03",
+        "prof": [
+            "Florit Patricia Teresa",
+            "Bucello Pablo Augusto",
+            "Muñoz Andrés Leandro",
+            "Álvarez Adrián Omar",
+            "Barbagallo María Laura",
+            "Schmidberg Pablo Esteban",
+            "Benítez Oscar Matías",
+            "Gaviola Pedro Augusto"
+        ]
+    },
+    "Matemática IV 93.65": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Matemática IV 93.65",
+        "prof": [
+            "Devoto Jorge Andres",
+            "Florit Patricia Teresa",
+            "Orecchia Monica Ines",
+            "Peralta Nora Beatriz",
+            "Sirczuk Diana Graciela",
+            "Benítez Oscar Matías",
+            "Rojas Ruiz José Esteban"
+        ]
+    },
+    "Matemática V 93.38": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Matemática V 93.38",
+        "prof": [
+            "Delellis Roberto Daniel",
+            "Di Lorenzo Francisco Javier"
+        ]
+    },
+    "Matemática V 93.57": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Matemática V 93.57",
+        "prof": [
+            "Garcia Galiñanes Rafael Antonio",
+            "Peña Nelly Haydee"
+        ]
+    },
+    "Materiales Poliméricos 12.44": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Materiales Poliméricos 12.44",
+        "prof": [
+            "Rodríguez Aníbal Adrián",
+            "Ibarra María Luján",
+            "Oyarzabal Nicolás Andrés"
+        ]
+    },
+    "Materiales Poliméricos 31.30": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Materiales Poliméricos 31.30",
+        "prof": [
+            "Botana Adrián Franscisco",
+            "Figueyra Javier Héctor",
+            "Gostuski Ivan Alejandro"
+        ]
+    },
+    "Materiales y Procesos 11.16": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Materiales y Procesos 11.16",
+        "prof": [
+            "De Bernardez Leopoldo",
+            "Castañiza Sebastian Miguel",
+            "Mujica Marcelo Mariano",
+            "Cazado Mauricio Exequiel",
+            "Chalfoun Dannisa R.",
+            "Deferrari Nicolas",
+            "Gutierrez Julieta",
+            "Lonardi Francisco"
+        ]
+    },
+    "Mecanismos 31.33": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Mecanismos 31.33",
+        "prof": [
+            "Leslabay Pablo Enrique",
+            "Polano Francisco José"
+        ]
+    },
+    "Mecatrónica Aplicada 31.99": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Mecatrónica Aplicada 31.99",
+        "prof": [
+            "Perfumo Lucas Alberto",
+            "Fortunatti Nelson Ariel"
+        ]
+    },
+    "Mecánica General 93.51": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Mecánica General 93.51",
+        "prof": [
+            "Ratto Jorge Oscar",
+            "Delellis Roberto Daniel",
+            "Minces Pablo Sebastián",
+            "Rinaldi Miguel Angel"
+        ]
+    },
+    "Mecánica de Fluidos 31.22": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Mecánica de Fluidos 31.22",
+        "prof": [
+            "Cardozo Matías Ernesto Cesar",
+            "Martinez Mariano A.",
+            "Mantelli Pablo",
+            "Sívori Francisco Mariano"
+        ]
+    },
+    "Mecánica de Fluidos 31.26": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Mecánica de Fluidos 31.26",
+        "prof": [
+            "Vieytes Roberto Eduardo",
+            "Pedreira Patricio Hernán"
+        ]
+    },
+    "Mecánica y Mecanismos 30.01": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Mecánica y Mecanismos 30.01",
+        "prof": [
+            "Falco Jorge Eduardo",
+            "Bonadeo Claudio",
+            "Vazquez Gustavo Alejandro"
+        ]
+    },
+    "Metalurgia Física I 30.16": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Metalurgia Física I 30.16",
+        "prof": [
+            "Rodríguez Aníbal Adrián",
+            "Navajas Ahumada javier Eduardo"
+        ]
+    },
+    "Metalurgia Física I 30.24": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Metalurgia Física I 30.24",
+        "prof": [
+            "Anteri Guillermo Orlando"
+        ]
+    },
+    "Metalurgia Física I 41.33": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Metalurgia Física I 41.33",
+        "prof": [
+            "Abalos Roxana",
+            "Lorenzo María Cecilia"
+        ]
+    },
+    "Metodología de la Investigación 11.91": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Metodología de la Investigación 11.91",
+        "prof": [
+            "Rancan Claudio Jorge",
+            "Bellido Arias Andrés Ignacio"
+        ]
+    },
+    "Metodología del Aprendizaje 94.24": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Metodología del Aprendizaje 94.24",
+        "prof": [
+            "Gayoso Maria Celia",
+            "Manterola Sergio Daniel",
+            "Álvarez Paola Marta",
+            "Toranzo Calderón Joaquín Santiago"
+        ]
+    },
+    "Microeconomía 61.81": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Microeconomía 61.81",
+        "prof": [
+            "Coccolo Pablo Bartolome",
+            "Abayu Jorge Alejandro"
+        ]
+    },
+    "Microelectrónica 22.33": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Microelectrónica 22.33",
+        "prof": [
+            "Baez Eduardo Diocles",
+            "Cesaretti Juan Manuel"
+        ]
+    },
+    "Microondas 22.29": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Microondas 22.29",
+        "prof": [
+            "Belaustegui Goitia Carlos F.",
+            "Selmo Carlos",
+            "Sigwald Martin"
+        ]
+    },
+    "Microprocesadores y Control 22.57": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Microprocesadores y Control 22.57",
+        "prof": [
+            "Jacoby Daniel Andres",
+            "Magliola Nicolas",
+            "Colombo Sebastián Carlos"
+        ]
+    },
+    "Modelado Avanzado de Procesos e Inteligencia de Negocios 81.61": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Modelado Avanzado de Procesos e Inteligencia de Negocios 81.61",
+        "prof": [
+            "Moon Jae Suk Tonny",
+            "Guevara Diego"
+        ]
+    },
+    "Moneda Digital Descentralizada 72.89": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Moneda Digital Descentralizada 72.89",
+        "prof": [
+            "Jardi Bello Yemel Angel",
+            "Cortesi Mariano Agustin"
+        ]
+    },
+    "Motores Marinos 32.03": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Motores Marinos 32.03",
+        "prof": [
+            "Fiorentino Norberto Eduardo",
+            "Camueira Lucas Manuel"
+        ]
+    },
+    "Motores de Combustión Interna 30.06": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Motores de Combustión Interna 30.06",
+        "prof": [
+            "Celani Vicente Fidel",
+            "Zubiri Juan Ignacio"
+        ]
+    },
+    "Motores de Combustión Interna 30.09": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Motores de Combustión Interna 30.09",
+        "prof": [
+            "Celani Vicente Fidel",
+            "Zubiri Juan Ignacio"
+        ]
+    },
+    "Muro Trombe 15.01": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Muro Trombe 15.01",
+        "prof": [
+            "Lezama Juan Marcelo",
+            "Durán Guillermo Enrique"
+        ]
+    },
+    "Máquinas Eléctricas 21.09": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Máquinas Eléctricas 21.09",
+        "prof": [
+            "Alvarez Julio",
+            "Cerfoglio Ernesto Luis",
+            "Pingitore Ricardo Alejandro"
+        ]
+    },
+    "Máquinas Térmicas 30.02": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Máquinas Térmicas 30.02",
+        "prof": [
+            "Celani Vicente Fidel",
+            "Martins Claudio Pedro",
+            "Mariano C. Francioni",
+            "Costantini Patricio"
+        ]
+    },
+    "Máquinas e Instalaciones Eléctricas 21.07": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Máquinas e Instalaciones Eléctricas 21.07",
+        "prof": [
+            "Carrillo Del Pino Manuel Esteban",
+            "Cerfoglio Ernesto Luis",
+            "Pingitore Ricardo Alejandro"
+        ]
+    },
+    "Métodos Numéricos 93.07": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Métodos Numéricos 93.07",
+        "prof": [
+            "Devoto Jorge Andres",
+            "Fierens Pablo Ignacio",
+            "Villaverde Francisco Fernando",
+            "Wilk Bernardo Matías"
+        ]
+    },
+    "Métodos Numéricos 93.54": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Métodos Numéricos 93.54",
+        "prof": [
+            "Fierens Pablo Ignacio",
+            "Álvarez Adrián Omar",
+            "Grisales Campeón Juan Pablo"
+        ]
+    },
+    "Métodos Numéricos 93.66": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Métodos Numéricos 93.66",
+        "prof": [
+            "Villaverde Francisco Fernando",
+            "Grisales Campeón Juan Pablo"
+        ]
+    },
+    "Métodos Numéricos Avanzados 93.75": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Métodos Numéricos Avanzados 93.75",
+        "prof": [
+            "Fierens Pablo Ignacio",
+            "Álvarez Adrián Omar",
+            "Schmidberg Pablo Esteban"
+        ]
+    },
+    "Negocios en la Era de Internet 14.62": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Negocios en la Era de Internet 14.62",
+        "prof": []
+    },
+    "Negocios y Tecnología en Internet 81.52": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Negocios y Tecnología en Internet 81.52",
+        "prof": [
+            "Casanova Pablo Rodolfo",
+            "Marino Gustavo Adrian",
+            "Alonso Diego",
+            "Patron Alberto Jorge",
+            "Staudenmann Luis Alberto"
+        ]
+    },
+    "Neurociencia y Liderazgo 14.90": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Neurociencia y Liderazgo 14.90",
+        "prof": [
+            "Venegas Valeria alejandra"
+        ]
+    },
+    "Neurociencias 16.26": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Neurociencias 16.26",
+        "prof": [
+            "Riquelme Luis",
+            "Joaquín Piriz"
+        ]
+    },
+    "OLAP y Explotación de Datos 72.54": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "OLAP y Explotación de Datos 72.54",
+        "prof": [
+            "Vaisman Alejandro Ariel"
+        ]
+    },
+    "Operaciones Unitarias I 12.11": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Operaciones Unitarias I 12.11",
+        "prof": [
+            "Arufe Gonzalo Lorenzo",
+            "Dwek Martina",
+            "Maffi Juan Martín"
+        ]
+    },
+    "Operaciones Unitarias II 12.12": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Operaciones Unitarias II 12.12",
+        "prof": [
+            "Montes Juan Manuel",
+            "Petracci Zappala Federico Martín",
+            "Ausejo Matías Daniel"
+        ]
+    },
+    "Operaciones Unitarias III 12.13": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Operaciones Unitarias III 12.13",
+        "prof": [
+            "Aude Luppi Vergenie Edith",
+            "Arufe Gonzalo Lorenzo",
+            "Acosta García Diego",
+            "Elizondo Tomás Manuel Joaquín"
+        ]
+    },
+    "Optimización Logística 10.14": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Optimización Logística 10.14",
+        "prof": [
+            "Arakaki Gaston Nicolas",
+            "Wang John Yongmin"
+        ]
+    },
+    "Organización Industrial 11.15": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Organización Industrial 11.15",
+        "prof": [
+            "Lowi Debora",
+            "López Hermann Gustavo Alberto",
+            "Esteves Jorge",
+            "García Oscar Agustín",
+            "LLapur Ignacio",
+            "Toneguzzo Santiago"
+        ]
+    },
+    "Organización de la Producción I 11.10": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Organización de la Producción I 11.10",
+        "prof": [
+            "Soto Marcela Fabiana",
+            "Carola Luis Federico",
+            "Lucioli Mónica Susana",
+            "Lastra Ortelli Gregorio Juan Valentin",
+            "Carracedo Fernández Gonzalo Ezequiel",
+            "Chiavarini Guido Alfonso",
+            "García Madeo Mariana",
+            "Guidotti Marcos",
+            "Liziaga Mauro Damián",
+            "Martinez Neydemar",
+            "Pereira Macarena",
+            "Piñas Carolina"
+        ]
+    },
+    "Organización de la Producción II 11.02": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Organización de la Producción II 11.02",
+        "prof": [
+            "Carola Luis Federico",
+            "Lowi Debora",
+            "Lucioli Mónica Susana",
+            "Ciapanna Pablo Oscar Octavio",
+            "Rodriguez Gustavo Eduardo",
+            "Sánchez Marcelo Fabián"
+        ]
+    },
+    "Panorama Histórico Global 94.60": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Panorama Histórico Global 94.60",
+        "prof": [
+            "Giuliano Héctor Gustavo",
+            "Herrera María Eugenia"
+        ]
+    },
+    "Perforación Petrolera I 41.03": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Perforación Petrolera I 41.03",
+        "prof": [
+            "Ghidina Daniel Elio",
+            "Piagentini Horacio Mauricio"
+        ]
+    },
+    "Perforación Petrolera II 41.04": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Perforación Petrolera II 41.04",
+        "prof": [
+            "Abalos Roxana",
+            "Ghidina Daniel Elio",
+            "Piagentini Horacio Mauricio"
+        ]
+    },
+    "Petrofísica y Fluidos de Reservorios 41.08": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Petrofísica y Fluidos de Reservorios 41.08",
+        "prof": [
+            "Astesiano Daniel Osvaldo",
+            "Fondevila Sancet Gastón",
+            "Leiva Marisol Emilce",
+            "Birba Joaquín",
+            "Caliz Viñas Emil Alejandro"
+        ]
+    },
+    "Planeamiento Estratégico 11.46": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Planeamiento Estratégico 11.46",
+        "prof": [
+            "Boullon Fernando",
+            "Simcic Maximiliano Norberto",
+            "Alvarez Juan Ignacio",
+            "Gonzáles Cháves Tomás"
+        ]
+    },
+    "Plantas Industriales 10.04": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Plantas Industriales 10.04",
+        "prof": [
+            "De Bernardez Leopoldo",
+            "Echegoyen Raúl Esteban",
+            "Andereggen Alejandro Eugenio",
+            "Cazado Mauricio Exequiel",
+            "Lonardi Francisco"
+        ]
+    },
+    "Plantas Propulsoras Marinas 32.64": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Plantas Propulsoras Marinas 32.64",
+        "prof": [
+            "Fiorentino Norberto Eduardo",
+            "Camueira Lucas Manuel"
+        ]
+    },
+    "Plataformas de Computación Cognitiva 82.06": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Plataformas de Computación Cognitiva 82.06",
+        "prof": []
+    },
+    "Presupuesto y Control 61.20": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Presupuesto y Control 61.20",
+        "prof": [
+            "Pose Eduardo Francisco",
+            "Piantanida Horacio",
+            "Coccolo Pablo Bartolome",
+            "De Miguel Benito Jose",
+            "Laterrade Mariana"
+        ]
+    },
+    "Probabilidad 93.36": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Probabilidad 93.36",
+        "prof": [
+            "Galibert Maria Silvia",
+            "Alvarez Ponte Lucia Ines"
+        ]
+    },
+    "Probabilidad y Estadística 93.22": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Probabilidad y Estadística 93.22",
+        "prof": [
+            "Castro Kuriss Claudia Adriana",
+            "Buongiorno de Barugel Claudia María Haydeé"
+        ]
+    },
+    "Probabilidad y Estadística 93.24": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Probabilidad y Estadística 93.24",
+        "prof": [
+            "Fierens Pablo Ignacio",
+            "Villaverde Francisco Fernando",
+            "Pantazis Lucio José"
+        ]
+    },
+    "Procesamiento Adaptativo de Señales 22.46": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Procesamiento Adaptativo de Señales 22.46",
+        "prof": [
+            "Ressl Marc S.",
+            "Selmo Carlos"
+        ]
+    },
+    "Procesamiento de Imágenes 22.48": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Procesamiento de Imágenes 22.48",
+        "prof": [
+            "Jacoby Daniel Andres",
+            "Selmo Carlos"
+        ]
+    },
+    "Procesamiento de Imágenes Biomédicas 16.16": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Procesamiento de Imágenes Biomédicas 16.16",
+        "prof": [
+            "Milano Federico"
+        ]
+    },
+    "Procesamiento de Señales Biomédicas 16.15": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Procesamiento de Señales Biomédicas 16.15",
+        "prof": [
+            "Bonomini María Paula",
+            "Mancino Axel Víctor Andrés",
+            "ROHLEDER MATÍAS DAMIÁN"
+        ]
+    },
+    "Procesamiento de Voz 22.47": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Procesamiento de Voz 22.47",
+        "prof": [
+            "Ressl Marc S.",
+            "Selmo Carlos"
+        ]
+    },
+    "Procesos de Manufactura I 31.67": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Procesos de Manufactura I 31.67",
+        "prof": [
+            "Bonadeo Claudio",
+            "Di Pasquale Gustavo Pablo",
+            "Moreno Santiago Andrés"
+        ]
+    },
+    "Procesos de Manufactura II 31.65": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Procesos de Manufactura II 31.65",
+        "prof": [
+            "Rodríguez Aníbal Adrián",
+            "Fernandez Maria Josefina"
+        ]
+    },
+    "Producción de Petróleo 41.27": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Producción de Petróleo 41.27",
+        "prof": [
+            "Shiratori Julio Alfredo",
+            "Gallo Jimenez Gonzalo Augusto",
+            "Gonzalez Dario Javier",
+            "Stainoh Marcelo Sebastián"
+        ]
+    },
+    "Programación 71.85": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Programación 71.85",
+        "prof": [
+            "Buquete Maria Alejandra",
+            "Diaz Laura Ines"
+        ]
+    },
+    "Programación Básica 71.56": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Programación Básica 71.56",
+        "prof": [
+            "Diaz Laura Ines",
+            "Fernandez Diana Beatriz",
+            "Olcese Alfredo Alberto",
+            "Gómez Constanza Mariel"
+        ]
+    },
+    "Programación Funcional 72.60": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Programación Funcional 72.60",
+        "prof": [
+            "Martinez Lopez Pablo Ernesto",
+            "Pennella Valeria Verónica"
+        ]
+    },
+    "Programación I 22.07": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Programación I 22.07",
+        "prof": [
+            "Jacoby Daniel Andres",
+            "Magliola Nicolas",
+            "Vacatello Pablo Daniel"
+        ]
+    },
+    "Programación Imperativa 72.31": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Programación Imperativa 72.31",
+        "prof": [
+            "Garberoglio Marcelo Fabio",
+            "Arias Roig Ana Maria",
+            "Meola Franco Román",
+            "Filipuzzi Maximiliano Jesús"
+        ]
+    },
+    "Programación Orientada a Objetos 72.33": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Programación Orientada a Objetos 72.33",
+        "prof": [
+            "Garberoglio Marcelo Fabio",
+            "Meola Franco Román",
+            "Strubolini Diego Martín"
+        ]
+    },
+    "Programación de Objetos Distribuidos 72.42": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Programación de Objetos Distribuidos 72.42",
+        "prof": [
+            "Turrin Marcelo Emiliano",
+            "Meola Franco Román"
+        ]
+    },
+    "Protocolos de Comunicación 72.07": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Protocolos de Comunicación 72.07",
+        "prof": [
+            "Garberoglio Marcelo Fabio",
+            "Codagnone Juan Francisco"
+        ]
+    },
+    "Proyecto Automotor (Anual) 31.88": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Proyecto Automotor (Anual) 31.88",
+        "prof": [
+            "Raffo Federico",
+            "Zubiri Juan Ignacio"
+        ]
+    },
+    "Proyecto Final (Anual) 21.84": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Proyecto Final (Anual) 21.84",
+        "prof": [
+            "Sirabonian Norberto Ildo",
+            "Santo Carlos Santiago"
+        ]
+    },
+    "Proyecto Final (Anual) 72.45": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Proyecto Final (Anual) 72.45",
+        "prof": [
+            "Soliani Valeria Inés"
+        ]
+    },
+    "Proyecto Final - Analítica 82.02": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Proyecto Final - Analítica 82.02",
+        "prof": []
+    },
+    "Proyecto Final de Carrera (Anual) 16.30": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Proyecto Final de Carrera (Anual) 16.30",
+        "prof": [
+            "Garayalde Damián Alejandro",
+            "Paschetta Federico",
+            "Tablon Alberto Jorge"
+        ]
+    },
+    "Proyecto Final de Ingeniería Industrial (Anual) 10.01": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Proyecto Final de Ingeniería Industrial (Anual) 10.01",
+        "prof": [
+            "Perez De Solay Martin",
+            "García Poitevin Catalina",
+            "Spitzner Federico",
+            "Varela Paez Hernan Matias",
+            "Villamil Santiago Juan",
+            "Assenza Parisi Florencia",
+            "Bagnasco Franco",
+            "Bugallo Stephenson María",
+            "Casal Juan Pablo",
+            "Castagnino Nicolas",
+            "Cornejo Victoria",
+            "De Caboteau Lucas",
+            "Domingo Alejandro Javier",
+            "Díaz Lucas Julio",
+            "Estevez Magnasco Roberto Luis",
+            "Etchebarne Facundo Patricio",
+            "Franke Matías Alejandro",
+            "Frias Silva Santiago",
+            "Jouly Nicolás Javier",
+            "Mascarenhas Juan Martin",
+            "Mele Fernando Javier",
+            "Mosteiro María Lucila",
+            "Palermo Pablo Francisco",
+            "Ruiz Martínez Santiago José",
+            "Tarantini Nicolás Javier",
+            "Tiscornia Matías Guillermo",
+            "Valverde Pedro Martín"
+        ]
+    },
+    "Proyecto I 82.01": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Proyecto I 82.01",
+        "prof": [
+            "Bouret María Gabriela",
+            "Peralta Ramos Angélica"
+        ]
+    },
+    "Proyecto Mecatrónico (Anual) 31.58": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Proyecto Mecatrónico (Anual) 31.58",
+        "prof": [
+            "Leslabay Pablo Enrique"
+        ]
+    },
+    "Proyecto Mecánico (Anual) 31.40": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Proyecto Mecánico (Anual) 31.40",
+        "prof": [
+            "Vieytes Roberto Eduardo",
+            "Leslabay Pablo Enrique",
+            "Chiacchiarelli Leonel Matias",
+            "Pedreira Patricio Hernán",
+            "Oyarzabal Nicolás Andrés"
+        ]
+    },
+    "Proyecto de Aplicaciones Web 72.38": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Proyecto de Aplicaciones Web 72.38",
+        "prof": [
+            "Sotuyo Dodero Juan Martin",
+            "Badi Leonel",
+            "Crespo Alvaro Andrés"
+        ]
+    },
+    "Proyecto de Buques (Anual) 32.57": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Proyecto de Buques (Anual) 32.57",
+        "prof": [
+            "Dos Santos Alejandro Claudio M.",
+            "Fiorentino Norberto Eduardo",
+            "Koczan Jonatan Ariel"
+        ]
+    },
+    "Proyecto de Embarcaciones de Trabajo 32.71": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Proyecto de Embarcaciones de Trabajo 32.71",
+        "prof": [
+            "Dos Santos Alejandro Claudio M.",
+            "Fiorentino Norberto Eduardo",
+            "Koczan Jonatan Ariel"
+        ]
+    },
+    "Proyecto de Fin de Carrera de Intercambio- Ing Electrónica 23.01": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Proyecto de Fin de Carrera de Intercambio- Ing Electrónica 23.01",
+        "prof": []
+    },
+    "Proyecto de Fin de Carrera de Intercambio- Ing Industrial 10.99": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Proyecto de Fin de Carrera de Intercambio- Ing Industrial 10.99",
+        "prof": []
+    },
+    "Proyecto de Fin de Carrera de Intercambio- Ing Informática 72.91": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Proyecto de Fin de Carrera de Intercambio- Ing Informática 72.91",
+        "prof": [
+            "Soliani Valeria Inés"
+        ]
+    },
+    "Proyecto de Fin de Carrera de Intercambio- Ing Mecánica 30.99": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Proyecto de Fin de Carrera de Intercambio- Ing Mecánica 30.99",
+        "prof": [
+            "Leslabay Pablo Enrique"
+        ]
+    },
+    "Proyecto de Fin de Carrera de Intercambio- Licenciatura en Administración y Sistemas 81.98": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Proyecto de Fin de Carrera de Intercambio- Licenciatura en Administración y Sistemas 81.98",
+        "prof": []
+    },
+    "Proyecto de Instalaciones de Superficie 41.12": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Proyecto de Instalaciones de Superficie 41.12",
+        "prof": [
+            "Surin Carlos Alberto",
+            "Boccardo Pablo",
+            "de la Zerda María Agustina"
+        ]
+    },
+    "Proyecto de Materiales (Anual) 31.83": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Proyecto de Materiales (Anual) 31.83",
+        "prof": [
+            "Leslabay Pablo Enrique"
+        ]
+    },
+    "Proyecto de Plantas (Anual) 12.90": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Proyecto de Plantas (Anual) 12.90",
+        "prof": [
+            "Conde Mariano Carlos",
+            "Molina Ramos Merwin Espartaco",
+            "Hardtke Astrid Laura"
+        ]
+    },
+    "Práctica de Campo I 41.21": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Práctica de Campo I 41.21",
+        "prof": [
+            "Caligari Ruben Oscar"
+        ]
+    },
+    "Práctica de Campo II 41.22": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Práctica de Campo II 41.22",
+        "prof": [
+            "Caligari Ruben Oscar"
+        ]
+    },
+    "Prácticas Expositivas 94.64": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Prácticas Expositivas 94.64",
+        "prof": [
+            "Diaz Leimbacher Enrique Daniel",
+            "Verdenelli Juliana"
+        ]
+    },
+    "Química 12.09": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Química 12.09",
+        "prof": [
+            "Testa Fernandez Juan Jose",
+            "Coria Oriundo Lucy Linders"
+        ]
+    },
+    "Química Analítica 12.19": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Química Analítica 12.19",
+        "prof": [
+            "Stripeikis Jorge Daniel",
+            "Edelsztein Valeria Carolina",
+            "Luna Pablo Cesar"
+        ]
+    },
+    "Química I 12.01": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Química I 12.01",
+        "prof": [
+            "Stripeikis Jorge Daniel",
+            "Testa Fernandez Juan Jose",
+            "Gentile Guillermina Jose",
+            "Meich Veronica Cecilia",
+            "Coria Oriundo Lucy Linders",
+            "Gazzaneo Alejandra Marcela",
+            "Molnár Edith María",
+            "Vanarelli Mauro Esteban",
+            "Enderle Ana Gabriela",
+            "Exeni Matiuzzi Carolina",
+            "Leal Emilse Soledad",
+            "Rojas Yeraldith",
+            "Tebele María Florencia"
+        ]
+    },
+    "Química II 12.02": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Química II 12.02",
+        "prof": [
+            "Errea Maria Ines",
+            "Stripeikis Jorge Daniel",
+            "De Angelis Laura Elizabeth",
+            "Testa Fernandez Juan Jose",
+            "Meich Veronica Cecilia",
+            "Gazzaneo Alejandra Marcela",
+            "Molnár Edith María",
+            "Arrupe Nicolás",
+            "Rey María de los Ángeles"
+        ]
+    },
+    "Química II 12.43": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Química II 12.43",
+        "prof": [
+            "Rodríguez Aníbal Adrián",
+            "Ibarra María Luján",
+            "Oyarzabal Nicolás Andrés"
+        ]
+    },
+    "Química Orgánica I 12.32": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Química Orgánica I 12.32",
+        "prof": [
+            "Errea Maria Ines",
+            "De Angelis Laura Elizabeth",
+            "Rossi Ezequiel",
+            "Leal Emilse Soledad",
+            "Tasqué Joana Elisa"
+        ]
+    },
+    "Química Orgánica II 12.33": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Química Orgánica II 12.33",
+        "prof": [
+            "Errea Maria Ines",
+            "Teme Centurion Osvaldo Miguel",
+            "Rossi Ezequiel",
+            "Tasqué Joana Elisa"
+        ]
+    },
+    "Química Orgánica para Petroleo 12.34": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Química Orgánica para Petroleo 12.34",
+        "prof": [
+            "Errea Maria Ines",
+            "De Angelis Laura Elizabeth",
+            "Rossi Ezequiel",
+            "Pacho María Natalia",
+            "Rodríguez Ramírez Carlos Alejandro"
+        ]
+    },
+    "Química-Física 12.20": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Química-Física 12.20",
+        "prof": [
+            "Testa Fernandez Juan Jose",
+            "Meich Veronica Cecilia"
+        ]
+    },
+    "Realidad Virtual 23.15": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Realidad Virtual 23.15",
+        "prof": [
+            "Ressl Marc S."
+        ]
+    },
+    "Recuperación Asistida de Petróleo 41.10": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Recuperación Asistida de Petróleo 41.10",
+        "prof": [
+            "Bugari Alvaro",
+            "Gonzalez Dario Javier",
+            "Menghi Constanza"
+        ]
+    },
+    "Redes Digitales 22.66": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Redes Digitales 22.66",
+        "prof": [
+            "Hirchoren Gustavo Abraham",
+            "Rozenbaum Uriel"
+        ]
+    },
+    "Redes Neuronales 22.45": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Redes Neuronales 22.45",
+        "prof": [
+            "Selmo Carlos"
+        ]
+    },
+    "Redes Neuronales en Bioingeniería 16.32": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Redes Neuronales en Bioingeniería 16.32",
+        "prof": [
+            "Selmo Carlos",
+            "Mosquera Candelaria"
+        ]
+    },
+    "Redes de Información 72.20": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Redes de Información 72.20",
+        "prof": [
+            "Vallés Santiago Raúl",
+            "Gómez Jorge Exequiel",
+            "Farré Lucas Andrés",
+            "Staudenmann Luis Alberto"
+        ]
+    },
+    "Registros de Pozo 41.24": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Registros de Pozo 41.24",
+        "prof": [
+            "Astesiano Daniel Osvaldo",
+            "Lanussol Edgardo Ismael",
+            "Ortiz Albert César"
+        ]
+    },
+    "Resistencia de Materiales 31.35": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Resistencia de Materiales 31.35",
+        "prof": [
+            "Cavaliere Miguel Angel",
+            "Polano Francisco José"
+        ]
+    },
+    "Resistencia y Propulsión 32.69": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Resistencia y Propulsión 32.69",
+        "prof": [
+            "Cabrera Anibal Omar",
+            "Koczan Jonatan Ariel"
+        ]
+    },
+    "Responsabilidad Social Empresaria 81.05": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Responsabilidad Social Empresaria 81.05",
+        "prof": []
+    },
+    "Responsible Innovation: Ethics, Safety and Technology 14.81": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Responsible Innovation: Ethics, Safety and Technology 14.81",
+        "prof": []
+    },
+    "Seguridad Ocupacional y Ambiental 12.83": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Seguridad Ocupacional y Ambiental 12.83",
+        "prof": [
+            "Ordoñez Hernán Darío",
+            "Affranchino Gustavo Osvaldo",
+            "Fernandez Velazco Santiago"
+        ]
+    },
+    "Seminario de Actualización 81.45": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Seminario de Actualización 81.45",
+        "prof": [
+            "Gosende María Dolores",
+            "Nores Ignacio"
+        ]
+    },
+    "Sensores y Actuadores 22.56": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Sensores y Actuadores 22.56",
+        "prof": [
+            "Colombo Sebastián Carlos",
+            "Martínez Germán Carlos"
+        ]
+    },
+    "Sensores y Actuadores 22.88": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Sensores y Actuadores 22.88",
+        "prof": [
+            "Colombo Sebastián Carlos",
+            "Martínez Germán Carlos"
+        ]
+    },
+    "Señales Aleatorias 22.67": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Señales Aleatorias 22.67",
+        "prof": [
+            "Hirchoren Gustavo Abraham"
+        ]
+    },
+    "Señales y Sistemas 16.06": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Señales y Sistemas 16.06",
+        "prof": [
+            "Quintero Rincon Antonio",
+            "Mancino Axel Víctor Andrés"
+        ]
+    },
+    "Simulación 11.63": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Simulación 11.63",
+        "prof": [
+            "Arakaki Gaston Nicolas",
+            "Pedretti Juan Francisco",
+            "Boggi Jeronimo",
+            "Crosta Blanco Pilar",
+            "García Sebastián Gabriel",
+            "Gerbaudo Christian Gabriel",
+            "Parés Federico Ezequiel",
+            "Rodriguez Padilla María Luz",
+            "Ruiz Martínez Santiago José",
+            "Tamolonis Marco Andrés"
+        ]
+    },
+    "Simulación de Reservorios 41.35": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Simulación de Reservorios 41.35",
+        "prof": [
+            "Alvarado Martín Guillermo",
+            "Luperne Loustau Rogelio Horacio",
+            "Francos Juan Pablo",
+            "Gallo Jimenez Gonzalo Augusto"
+        ]
+    },
+    "Simulación de Sistemas 72.25": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Simulación de Sistemas 72.25",
+        "prof": [
+            "Parisi Daniel Ricardo",
+            "Patterson Germán Agustín"
+        ]
+    },
+    "Sistemas Contables 81.07": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Sistemas Contables 81.07",
+        "prof": [
+            "Guffanti German Enrique",
+            "Otero Susana Agustina"
+        ]
+    },
+    "Sistemas Integrados de Gestión Empresaria I 81.39": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Sistemas Integrados de Gestión Empresaria I 81.39",
+        "prof": [
+            "Mogetta Fernando",
+            "Winokur Maia"
+        ]
+    },
+    "Sistemas Integrados de Gestión Empresaria II 81.36": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Sistemas Integrados de Gestión Empresaria II 81.36",
+        "prof": [
+            "Castellano Matías Felipe",
+            "Zapata Francisco Javier"
+        ]
+    },
+    "Sistemas Integrados de Gestión en la Industria de Servicios 81.60": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Sistemas Integrados de Gestión en la Industria de Servicios 81.60",
+        "prof": [
+            "Osinski Jorge Alejandro",
+            "Alvarez Roldan María Virginia"
+        ]
+    },
+    "Sistemas Mecatrónicos 31.82": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Sistemas Mecatrónicos 31.82",
+        "prof": [
+            "Perfumo Lucas Alberto",
+            "Fortunatti Nelson Ariel"
+        ]
+    },
+    "Sistemas Mecatrónicos del Autómovil 30.40": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Sistemas Mecatrónicos del Autómovil 30.40",
+        "prof": [
+            "Celani Vicente Fidel"
+        ]
+    },
+    "Sistemas Multiagente I 72.79": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Sistemas Multiagente I 72.79",
+        "prof": [
+            "Parpaglione Maria Cristina",
+            "Horvat Eric Nahuel"
+        ]
+    },
+    "Sistemas Operativos 72.11": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Sistemas Operativos 72.11",
+        "prof": [
+            "Merovich Horacio Víctor",
+            "Godio Ariel"
+        ]
+    },
+    "Sistemas de Control 22.85": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Sistemas de Control 22.85",
+        "prof": [
+            "Nasini Victor Gustavo",
+            "Zujew Cristian Alejo"
+        ]
+    },
+    "Sistemas de Control 23.03": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Sistemas de Control 23.03",
+        "prof": [
+            "Zujew Cristian Alejo",
+            "Pretel Matías Rodolfo"
+        ]
+    },
+    "Sistemas de Información 81.03": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Sistemas de Información 81.03",
+        "prof": [
+            "Marino Gustavo Adrian",
+            "Apat Javier"
+        ]
+    },
+    "Sistemas de Inteligencia Artificial 72.27": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Sistemas de Inteligencia Artificial 72.27",
+        "prof": [
+            "Parpaglione Maria Cristina",
+            "Ramele Rodrigo Ezequiel",
+            "Pierri Alan"
+        ]
+    },
+    "Sistemas de Representación 31.08": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Sistemas de Representación 31.08",
+        "prof": [
+            "De Piero Maria Ines",
+            "Pfister Patricia Sylvina",
+            "Ducrey Mariana",
+            "Giménez Analía Paula",
+            "Porcellana Jorge Alberto",
+            "Sztrum Rocío Belén"
+        ]
+    },
+    "Sistemas y Modelos 11.79": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Sistemas y Modelos 11.79",
+        "prof": [
+            "Mur Sebastián Matías",
+            "Cruz Ignacio",
+            "Kljenak Ramiro",
+            "Ravenna Grand Florencia María",
+            "Toscano Manuel"
+        ]
+    },
+    "Sociología Política 94.11": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Sociología Política 94.11",
+        "prof": [
+            "Diaz Leimbacher Enrique Daniel",
+            "Sansone Bettella Marianela",
+            "Demattei Clarisa Rosario"
+        ]
+    },
+    "Taller de Modelización de Productos 11.34": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Taller de Modelización de Productos 11.34",
+        "prof": [
+            "Leporati Jorge Eduardo",
+            "Sandre Cristian"
+        ]
+    },
+    "Tecnología de Mat. Eléctricos 21.32": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Tecnología de Mat. Eléctricos 21.32",
+        "prof": [
+            "Giobellina Héctor José",
+            "Vallone Francisco Gabriel"
+        ]
+    },
+    "Tecnología de Materiales Compuestos 31.94": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Tecnología de Materiales Compuestos 31.94",
+        "prof": [
+            "Chiacchiarelli Leonel Matias",
+            "Oyarzabal Nicolás Andrés"
+        ]
+    },
+    "Tecnología de Materiales Electrónicos 22.53": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Tecnología de Materiales Electrónicos 22.53",
+        "prof": [
+            "Aguirre Miguel Pablo",
+            "Nemirovsky Nicolas Matías"
+        ]
+    },
+    "Tecnología de Máquinas 31.81": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Tecnología de Máquinas 31.81",
+        "prof": [
+            "Leslabay Pablo Enrique",
+            "Guozden Agustina"
+        ]
+    },
+    "Tecnología de los Alimentos 12.51": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Tecnología de los Alimentos 12.51",
+        "prof": [
+            "Fattori Susana Beatriz",
+            "Figueyra Javier Héctor",
+            "Fernández Korosec Alejo Martín"
+        ]
+    },
+    "Tecnologías y Procesos de Producción 11.75": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Tecnologías y Procesos de Producción 11.75",
+        "prof": [
+            "De Bernardez Leopoldo",
+            "Agaliotis Eliana Mabel",
+            "Mujica Marcelo Mariano",
+            "Altuna Luz",
+            "Balbi María del Pilar",
+            "Santiago Vasquez Daniel Alberto"
+        ]
+    },
+    "Teoría de Circuitos 22.01": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Teoría de Circuitos 22.01",
+        "prof": [
+            "Belaustegui Goitia Carlos F.",
+            "Jacoby Daniel Andres",
+            "Iribarren Rodrigo Iñaki"
+        ]
+    },
+    "Teoría de la Decisión 11.73": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Teoría de la Decisión 11.73",
+        "prof": [
+            "Ramonet Juan Antonio"
+        ]
+    },
+    "Terminación y Reparación de Pozos de Petróleo y Gas 41.25": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Terminación y Reparación de Pozos de Petróleo y Gas 41.25",
+        "prof": [
+            "Fucello Luciano",
+            "Moggia Juan Manuel"
+        ]
+    },
+    "Termodinámica 12.26": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Termodinámica 12.26",
+        "prof": [
+            "Milberg Hernán",
+            "Lamborizio María Bárbara",
+            "Lamborizio Santiago Nicolás"
+        ]
+    },
+    "Termodinámica 31.21": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Termodinámica 31.21",
+        "prof": [
+            "Lauretta Juan Ricardo",
+            "David Martín Rafael",
+            "Gulich Ernesto Iván"
+        ]
+    },
+    "Termodinámica 31.25": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Termodinámica 31.25",
+        "prof": [
+            "Lauretta Juan Ricardo",
+            "Cardozo Matías Ernesto Cesar",
+            "David Martín Rafael",
+            "Copola Javier",
+            "Gulich Ernesto Iván"
+        ]
+    },
+    "Toma de Decisiones 11.85": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Toma de Decisiones 11.85",
+        "prof": [
+            "Ramonet Juan Antonio",
+            "Ramos Silvia Adriana"
+        ]
+    },
+    "Trabajo Supervisado I 12.96": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Trabajo Supervisado I 12.96",
+        "prof": [
+            "Stripeikis Jorge Daniel",
+            "Gerpe Angela Viviana"
+        ]
+    },
+    "Trabajo Supervisado II 12.99": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Trabajo Supervisado II 12.99",
+        "prof": [
+            "Llano Paula Vanesa",
+            "León Díaz Víctor José",
+            "Leskovar Francisco"
+        ]
+    },
+    "Trabajo de Investigación Dirigido II 12.97": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Trabajo de Investigación Dirigido II 12.97",
+        "prof": [
+            "Berkenwald Emilio"
+        ]
+    },
+    "Trabajo de Investigación Dirigido III 12.98": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Trabajo de Investigación Dirigido III 12.98",
+        "prof": [
+            "Stripeikis Jorge Daniel",
+            "Cuesta María Ximena"
+        ]
+    },
+    "Trabajo de Laboratorio de Química 12.95": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Trabajo de Laboratorio de Química 12.95",
+        "prof": [
+            "Stripeikis Jorge Daniel"
+        ]
+    },
+    "Transferencia de Calor 31.37": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Transferencia de Calor 31.37",
+        "prof": [
+            "Vieytes Roberto Eduardo",
+            "Pedreira Patricio Hernán",
+            "Seguí Tomás Eugenio"
+        ]
+    },
+    "Transmisiones Automotrices 31.85": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Transmisiones Automotrices 31.85",
+        "prof": [
+            "Celani Vicente Fidel"
+        ]
+    },
+    "Transmisión de la Información 22.61": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Transmisión de la Información 22.61",
+        "prof": [
+            "Bertucci Eduardo Adolfo",
+            "Vila Krause Luis Gustavo"
+        ]
+    },
+    "Técnicas Avanzadas en Videojuegos 72.86": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Técnicas Avanzadas en Videojuegos 72.86",
+        "prof": [
+            "Lorenzon Jorge Alejandro"
+        ]
+    },
+    "Tópicos de Macroeconomía 61.83": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Tópicos de Macroeconomía 61.83",
+        "prof": [
+            "Abayu Jorge Alejandro",
+            "Berisso Osvaldo Jorge"
+        ]
+    },
+    "Álgebra 93.21": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Álgebra 93.21",
+        "prof": [
+            "Galibert Maria Silvia",
+            "Alvarez Ponte Lucia Ines"
+        ]
+    },
+    "Álgebra 93.58": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Álgebra 93.58",
+        "prof": [
+            "Mancilla Aguilar Jose Luis",
+            "Noni Maria Laura",
+            "Fages Luciano Rodolfo",
+            "Soria Sasias Adrián Marcelo"
+        ]
+    },
+    "Álgebra Lineal 93.18": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Álgebra Lineal 93.18",
+        "prof": [
+            "Peña Nelly Haydee",
+            "Blanco Vitorero Maria Patricia",
+            "Cabana Adriana Elena",
+            "Marti Maria Elisabeth",
+            "Peralta Nora Beatriz",
+            "Vargas Gabriela",
+            "Palacios Patricia Elizabeth",
+            "Oviedo Martina Guadalupe",
+            "Rozenwasser Laura",
+            "Soria Sasias Adrián Marcelo"
+        ]
+    },
+    "Ética en los Negocios 94.62": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Ética en los Negocios 94.62",
+        "prof": [
+            "Perego Pablo Alejandro",
+            "Blázquez Oscar Gustavo",
+            "Suárez Gustavo Daniel"
+        ]
+    },
+    "Órganos Artificiales 16.23": {
+        "Facultad": "Instituto Tecnológico de Buenos Aires",
+        "FacultadName": "ITBA",
+        "ShownName": "Órganos Artificiales 16.23",
+        "prof": [
+            "Ahumada Carolina",
+            "Bonini María Ursula"
         ]
     }
 }

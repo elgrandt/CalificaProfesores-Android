@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 
 import com.gnd.calificaprofesores.ActivitySendCommentProf;
 import com.gnd.calificaprofesores.IntentsManager.IntentProfManager;
+import com.gnd.calificaprofesores.NetworkHandler.UserExtraData;
 import com.gnd.calificaprofesores.NetworkProfOpinion.GotProfCommentListener;
 import com.gnd.calificaprofesores.NetworkProfOpinion.ProfCommentsDataManager;
 import com.gnd.calificaprofesores.NetworkProfOpinion.UserProfComment;
@@ -20,6 +21,7 @@ import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.OpinionProfDa
 
 import java.util.List;
 import java.util.Map;
+import java.util.Vector;
 
 /** layout_recycler_view.xml **/
 
@@ -78,9 +80,25 @@ public class ActivityOpinion extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         recyclerView.setAdapter(adapter);
 
+        Vector<UserProfComment> commentAct = new Vector<>();
+
+
         for (UserProfComment com : comment){
+            if (com.getAuthor().equals("CEITBA")){
+                commentAct.add(com);
+            }
+        }
+
+        for (UserProfComment com : comment){
+            if (!com.getAuthor().equals("CEITBA")){
+                commentAct.add(com);
+            }
+        }
+
+        for (UserProfComment com : commentAct){
             addComment(com);
         }
+
         View.OnClickListener goToOpinionListener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -118,6 +136,7 @@ public class ActivityOpinion extends Fragment {
             materiasText += materias.get(materia_key);
         }
 
+
         adapter.AddElement(new OpinionProfData(
                 comment.getAuthor(),
                 materiasText,
@@ -129,6 +148,8 @@ public class ActivityOpinion extends Fragment {
                 stars
                 )
         );
+
+
     }
 
 

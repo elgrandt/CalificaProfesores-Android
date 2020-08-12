@@ -141,7 +141,6 @@ public class NetworkVerifyHandler {
                     @Override
                     public void onDataChange(@NonNull final DataSnapshot dataSnapshot) {
 
-
                         for (final DataSnapshot userContent : dataSnapshot.getChildren()){
                             if (userContent.getKey().equals("user_id")){
                                 continue;

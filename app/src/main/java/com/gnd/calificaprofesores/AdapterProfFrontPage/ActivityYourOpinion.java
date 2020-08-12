@@ -41,7 +41,6 @@ public class ActivityYourOpinion extends Fragment {
     private Adapter adapter;
 
     IntentProfManager ProfManager; // para saber en que curso estamos
-
     Button buttonSend;
 
     @Override
@@ -50,6 +49,7 @@ public class ActivityYourOpinion extends Fragment {
         userData = new UserDataManager("");
         ProfManager = new IntentProfManager(getActivity().getIntent()); // a modificar cuando sea la version final
         // por ahora el profesor selecionado es siempre el mismo
+
     }
 
     @Nullable
@@ -129,7 +129,7 @@ public class ActivityYourOpinion extends Fragment {
                 intent.putExtra("Amabilidad",comment.getAmabilidad());
                 intent.putExtra("Clases",comment.getClases());
 
-                Map<String,String> materias = comment.getMaterias();
+                Map<String, String> materias = comment.getMaterias();
                 String []mat_array = new String[materias.size()];
                 String []mat_array_id = new String[materias.size()];
 

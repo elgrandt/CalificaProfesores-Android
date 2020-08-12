@@ -9,6 +9,7 @@ public class UserExtraData{
     private String UniId;
     private String UniName;
     private String UniCompleteName;
+    private String email;
 
     private boolean isAdmin;
     private boolean gotDataAdmin;
@@ -17,6 +18,7 @@ public class UserExtraData{
         ShownName = "";
         UniId = "";
         UniName = "";
+        email = "";
         UniCompleteName = "";
         isAdmin = false;
         gotDataAdmin = false;
@@ -70,6 +72,10 @@ public class UserExtraData{
         return gotDataAdmin;
     }
 
+    public void setEmail(String email){
+        this.email = email;
+    }
+
     public void setGotDataAdmin(boolean gotDataAdmin) {
         this.gotDataAdmin = gotDataAdmin;
     }
@@ -81,12 +87,16 @@ public class UserExtraData{
         UniName = "";
         ShownName = "";
         UniCompleteName = "";
+        email = "";
     }
 
     public String getUniCompleteName() {
         return UniCompleteName;
     }
 
+    public String getEmail(){
+        return email;
+    }
     public void setUniCompleteName(String uniCompleteName) {
         UniCompleteName = uniCompleteName;
     }

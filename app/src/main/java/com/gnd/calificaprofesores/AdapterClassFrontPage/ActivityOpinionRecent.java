@@ -23,6 +23,7 @@ import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.OpinionCourse
 import com.google.firebase.database.DatabaseError;
 
 import java.util.List;
+import java.util.Vector;
 
 
 /** Aqui acumulamos todas las opiniones recientes de una clase **/
@@ -39,6 +40,7 @@ public class ActivityOpinionRecent extends Fragment {
     private LayoutInflater layoutInflater;
 
     private List<CourseComment> Comments;
+    private Vector<CourseComment> commentsModified = new Vector<>();
     private static String CourseName;
     private static Long CourseId;
 
@@ -118,13 +120,26 @@ public class ActivityOpinionRecent extends Fragment {
                     }
             ));
         }
+        commentsModified.clear();
         for (CourseComment comment : comments){
+            if (comment.getAuthor().equals("CEITBA")){
+                commentsModified.add(comment);
+            }
+        }
+        for (CourseComment comment : comments){
+            if (!comment.getAuthor().equals("CEITBA")){
+                commentsModified.add(comment);
+            }
+        }
+        for (CourseComment comment : commentsModified){
+
             adapter.AddElement(new OpinionCourseData(
                     comment.getAuthor(),
                     comment.getContent(),
                     comment.getValoracion(),
                     comment.getTimestampLong()
             ));
+
         }
 
         adapter.notifyDataSetChanged();

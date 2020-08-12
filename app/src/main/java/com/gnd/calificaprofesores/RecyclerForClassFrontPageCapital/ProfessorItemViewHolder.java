@@ -30,18 +30,18 @@ public class ProfessorItemViewHolder extends RecyclerView.ViewHolder {
         RoundCornerProgressBar amabilidad = mView.findViewById(R.id.progress_3);
 
         conocimiento.setMax(100);
-        conocimiento.setProgress(Math.round(Conocimiento*100f));
+        conocimiento.setProgress(Math.round(Conocimiento*20f));    // * 100 / 5
 
         clases.setMax(100);
-        clases.setProgress(Math.round(Clases*100f));
+        clases.setProgress(Math.round(Clases*20f));
 
         amabilidad.setMax(100);
-        amabilidad.setProgress(Math.round(Amabilidad*100f));
+        amabilidad.setProgress(Math.round(Amabilidad*20f));
 
         float average = (Conocimiento+Clases+Amabilidad)/3;
 
         RatingBar score = mView.findViewById(R.id.RatingBar);
-        score.setRating(average * 5f);
+        score.setRating(average);
 
         TextView titulo = mView.findViewById(R.id.ProfessorName);
         titulo.setText(ProfessorName);

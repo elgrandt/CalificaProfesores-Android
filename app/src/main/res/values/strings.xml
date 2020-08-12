@@ -1,7 +1,7 @@
 <resources>
     <string name="toolbarTopText">CALIFICA PROFESORES</string>
     <string name="app_name">CalificaProfesores</string>
-    <string name="LoginText">LOGIN</string>
+    <string name="LoginText">CEITBApp</string>
     <string name="SignInText">INGRESAR</string>
     <string name="SignOutText">SALIR</string>
     <string name="title_activity_sign_in">Sign in</string>

@@ -130,6 +130,7 @@ public class ActivityClassFrontPageCapital extends Fragment {
             boolean someProf = false;
             for (final ProfExtendedData prof : course.getProfessors()){
                 if (prof.getAmabildiad() != -1f) {
+
                     ProfessorData profData = new ProfessorData(
                             prof.getName(),
                             prof.getConocimiento(),

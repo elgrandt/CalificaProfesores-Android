@@ -240,7 +240,11 @@ public class UserDataManager {
                         if (customListener == null) {
                             mGotUserExtraDataListener.gotExtraData(data);
                         }else{
-                            customListener.gotExtraData(data);
+                            try {
+                                customListener.gotExtraData(data);
+                            }catch (Exception e){
+                                String h = "5";
+                            }
                         }
                     }
 

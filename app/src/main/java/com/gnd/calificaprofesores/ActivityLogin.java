@@ -14,6 +14,8 @@ import android.widget.Toast;
 
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
+import com.firebase.ui.auth.AuthUI;
+import com.gnd.calificaprofesores.NetworkHandler.UserExtraDataInstance;
 import com.google.android.gms.auth.api.Auth;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
@@ -30,7 +32,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FacebookAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.GoogleAuthProvider;
-
+import com.firebase.ui.auth.AuthUI;
 public class ActivityLogin extends AppCompatActivity {
 
     private androidx.appcompat.widget.Toolbar toolbar;
@@ -161,7 +163,10 @@ public class ActivityLogin extends AppCompatActivity {
             try {
                 // Google Sign In was successful, authenticate with Firebase
                 GoogleSignInAccount account = task.getResult(ApiException.class);
+                Log.w(TAG, getEmailDomain(account.getEmail()));
                 firebaseAuthWithGoogle(account);
+
+
             } catch (ApiException e) {
                 // Google Sign In failed, update UI appropriately
                 Toast.makeText(this, "Error", Toast.LENGTH_SHORT);
@@ -171,9 +176,18 @@ public class ActivityLogin extends AppCompatActivity {
             }
         }
     }
+    public String getEmailDomain(String someEmail)
+    {
+        return  someEmail.substring(someEmail.indexOf("@") + 1);
+    }
 
     private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {
         Log.d(TAG, "firebaseAuthWithGoogle:" + acct.getId());
+
+        if (!getEmailDomain(acct.getEmail()).equals("itba.edu.ar")) {
+            Toast.makeText(this, "Los mails que no son del itba no estan soportados", Toast.LENGTH_SHORT).show();
+        }
+
 
         AuthCredential credential = GoogleAuthProvider.getCredential(acct.getIdToken(), null);
         mAuth.signInWithCredential(credential)
@@ -185,9 +199,6 @@ public class ActivityLogin extends AppCompatActivity {
                             Log.d(TAG, "signInWithCredential:success");
 
                             loginSucessful();
-
-
-
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w(TAG, "signInWithCredential:failure", task.getException());
@@ -250,6 +261,11 @@ public class ActivityLogin extends AppCompatActivity {
                         // ...
                     }
                 });
+
+
+    }
+    private void LogOut(){
+        UserExtraDataInstance.getInstance().logOut();
     }
 
 

@@ -1,107 +1,45 @@
 {
   "project_info": {
-    "project_number": "431457190400",
-    "firebase_url": "https://calificaprofesores-8250c.firebaseio.com",
-    "project_id": "calificaprofesores-8250c",
-    "storage_bucket": "calificaprofesores-8250c.appspot.com"
+    "project_number": "508894744809",
+    "firebase_url": "https://calificaprofesoresfixed.firebaseio.com",
+    "project_id": "calificaprofesoresfixed",
+    "storage_bucket": "calificaprofesoresfixed.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:431457190400:android:b10c23f227da3857",
+        "mobilesdk_app_id": "1:508894744809:android:86d993b73a09635b25a078",
         "android_client_info": {
-          "package_name": "com.gnd.calificaprofesores"
+          "package_name": "com.calificaprofesores"
         }
       },
       "oauth_client": [
         {
-          "client_id": "431457190400-qqdq6coffg92t9au26r062kk3o8v5etn.apps.googleusercontent.com",
+          "client_id": "508894744809-cn930tagtbihv94tpf9t06higef4v7sh.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.gnd.calificaprofesores",
-            "certificate_hash": "8ebd0f2a1c88a5dc467f217c4c116a25344a5044"
+            "package_name": "com.calificaprofesores",
+            "certificate_hash": "00d89abc14230580e426ab888db2ff12f44747df"
           }
         },
         {
-          "client_id": "431457190400-ahrgl7napcscgpfs743infs9742rkp81.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.gnd.calificaprofesores",
-            "certificate_hash": "02c3457d65353aa8390c41efdffc35f8b4d9d44e"
-          }
-        },
-        {
-          "client_id": "431457190400-ti9liv3uospv2rrh9vm927nreo56hll9.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.gnd.calificaprofesores",
-            "certificate_hash": "c78d8d6b8a123d72c9bd21aa98b336e6460710ca"
-          }
-        },
-        {
-          "client_id": "431457190400-bg9scgrl5adesiun9cjp57t3k6v1n60v.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.gnd.calificaprofesores",
-            "certificate_hash": "b5e183e0c5e326115d0c4fd88033b2567263b6cb"
-          }
-        },
-        {
-          "client_id": "431457190400-57qd3fh1o82nmk8k1pd2uva14j46a9oe.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.gnd.calificaprofesores",
-            "certificate_hash": "c35c8fc4d80c26c6c692cb8d6781e25e40559786"
-          }
-        },
-        {
-          "client_id": "431457190400-3a6870p357e9vfbqnm3fcs7b7693o2in.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.gnd.calificaprofesores",
-            "certificate_hash": "0a7d193f4eee2090684e44eab4a0bb13393dfdb4"
-          }
-        },
-        {
-          "client_id": "431457190400-1u98ofpdic7fl87o9nvlljovcv2v62ot.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.gnd.calificaprofesores",
-            "certificate_hash": "9138284260d5cbcb24a08a90d5bcdf7573ffef26"
-          }
-        },
-        {
-          "client_id": "431457190400-m2focpcmc6k2bf3sshc9ce97q0bi3dv6.apps.googleusercontent.com",
+          "client_id": "508894744809-02dqb526bonk89k9ugs33dgv2852edp3.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDgUVFGNfk7TqYzV2_x6DLiyMN2R4IWP4w"
+          "current_key": "AIzaSyCW88751E2t7lFv9uEa8ceZdjJDdDJI_-Y"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "431457190400-m2focpcmc6k2bf3sshc9ce97q0bi3dv6.apps.googleusercontent.com",
+              "client_id": "508894744809-02dqb526bonk89k9ugs33dgv2852edp3.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "431457190400-omq6rlkabsl4fc14idg38jhu6gbsll8s.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "gnd.Califica-Profesores"
-              }
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     }

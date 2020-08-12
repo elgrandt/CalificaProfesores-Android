@@ -7,6 +7,8 @@ package com.gnd.calificaprofesores;
 /*** Mucho cuidado con este archivo porque edita la base de datos ***/
 
 
+/*** Dia 8-4 cargar datos restantes de materias que fueron calculadas las que faltan por diferencia*/
+
 import android.content.Context;
 import android.util.Log;
 
@@ -64,7 +66,7 @@ public class GenerateDBDataFromJSON{
         getProfessorId = new HashMap<>();
 
         mAuth = FirebaseAuth.getInstance();
-        mAuth.signInWithEmailAndPassword("ad@ad.com","la456454356446768a").addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+        mAuth.signInWithEmailAndPassword("ad@ad.com","lalala").addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
@@ -72,9 +74,10 @@ public class GenerateDBDataFromJSON{
                         Log.d("CalificaProfesoresLogs", "Login!");
                         //deleteMatFrom("1");
                         //addProfessorsDb();
-                        LoadProfessorsId();
-                        addMateriasDb();
+                        //LoadProfessorsId();
+                        //addMateriasDb();
                     }catch (Exception e){
+
                         Log.d("CalificaProfesoresLogs","org.json.JSONException");
                     }
                 }else{
@@ -94,7 +97,7 @@ public class GenerateDBDataFromJSON{
         Log.d("CalificaProfesoresLogs", "Cargando profesores");
 
         InputStream inputStream = appContext.getResources().openRawResource(R.raw.profesores);
-        String jsonString = new Scanner(inputStream,"ISO-8859-1").useDelimiter("\\A").next();
+        String jsonString = new Scanner(inputStream,"utf-8").useDelimiter("\\A").next();
 
         JSONObject reader = new JSONObject(jsonString);
         JSONArray names = reader.names();
@@ -121,6 +124,11 @@ public class GenerateDBDataFromJSON{
             Log.d("CalificaProfesoresLogs","Procesando " + name);
 
             loadProfessor(name);
+
+            for (Integer a = 0;a < 100000000;a++){
+                Integer h = 5;
+                h *= 2;
+            } // delay
         }
 
 
@@ -136,7 +144,7 @@ public class GenerateDBDataFromJSON{
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 for (DataSnapshot child : dataSnapshot.getChildren()){
-                   // deleteMat((String)child.child("Name").getValue());
+                    deleteMat((String)child.child("Name").getValue()); // eliminar materia
                     FirebaseDatabase.getInstance()
                             .getReference("MateriasPorFacultad/"+facultadId+"/"+child.getKey()).removeValue();
                 }
@@ -168,14 +176,14 @@ public class GenerateDBDataFromJSON{
 
 
 
-                    //FirebaseDatabase.getInstance()
-                    //        .getReference("Materias/"+id).removeValue();
+                    FirebaseDatabase.getInstance()
+                            .getReference("Materias/"+id).removeValue();
 
 
 
-                    /*FirebaseDatabase.getInstance()
+                    FirebaseDatabase.getInstance()
                             .getReference("Materias")
-                            .getRefe.removeValue();*/
+                            .removeValue();
                 }
             }
 
@@ -208,7 +216,7 @@ public class GenerateDBDataFromJSON{
     public void LoadProfessorsId() throws org.json.JSONException {
         // cargamos el id de los profesores de un archivo json con la información
         InputStream inputStream = appContext.getResources().openRawResource(R.raw.profesores_with_id);
-        String jsonString = new Scanner(inputStream, "ISO-8859-1").useDelimiter("\\A").next();
+        String jsonString = new Scanner(inputStream, "utf-8").useDelimiter("\\A").next();
 
         reader = new JSONObject(jsonString);
 
@@ -229,13 +237,14 @@ public class GenerateDBDataFromJSON{
     public void addMateriasDb() throws org.json.JSONException {
 
         InputStream inputStream = appContext.getResources().openRawResource(R.raw.materias);
-        String jsonString = new Scanner(inputStream, "ISO-8859-1").useDelimiter("\\A").next();
+        String jsonString = new Scanner(inputStream, "utf-8").useDelimiter("\\A").next();
 
         reader = new JSONObject(jsonString);
         names = reader.names();
 
-        /*count = 0;
-        // primero calculamos nombres
+        /*
+        count = 0;
+        //primero calculamos nombres
         for (final String longProfName : professors.keySet()) {
             SearchWordMini searchProfName = new SearchWordMini(longProfName);
             final String profName = searchProfName.getWord();
@@ -279,7 +288,7 @@ public class GenerateDBDataFromJSON{
 
     private void loadMateriasWithProf() throws org.json.JSONException {
 
-        for (int i = 0;i < names.length();i++) {
+        for (int i = 0;i < names.length();i++) { // por cada materia
             final  String name = names.getString(i);
             JSONObject object = reader.getJSONObject(name);
 
@@ -305,6 +314,11 @@ public class GenerateDBDataFromJSON{
                     classId,
                     profList
             );
+            Log.d("CalificaProfesoresLogs","Procesando " + name);
+            for (Integer a = 0;a < 250000000;a++){ // delay
+                Integer h = 5;
+                h *= 2;
+            } // delay
 
             Log.d("CalificaProfesoresLogs","----------------------------------");
             /*addClassHandler.addClass(new CompleteClassData(

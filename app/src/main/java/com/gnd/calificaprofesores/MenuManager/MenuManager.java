@@ -36,6 +36,7 @@ import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.LateralMenuIt
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
+import android.widget.Toast;
 
 /*** Manejamos el menu para navegar por la aplicación ***/
 // https://stackoverflow.com/questions/19442841/how-to-open-navigation-drawer-on-button-click-in-main-fragment
@@ -115,7 +116,12 @@ public class MenuManager {
             });
             UserDataManagerInstance.getInstance().listenForUserRights();
         }
+        if (!getEmailDomain(FirebaseAuth.getInstance().getCurrentUser().getEmail()).equals("itba.edu.ar")){
+
+            this.LogOut();
+        }
     }
+
     public void closeDrawer(){
         /* para cerrar el drawer */
         mDrawerLayout.closeDrawers();
@@ -404,6 +410,10 @@ public class MenuManager {
 
 
     }
+    public String getEmailDomain(String someEmail) {
+        return  someEmail.substring(someEmail.indexOf("@") + 1);
+    }
+
     private void LogOut(){
         UserExtraDataInstance.getInstance().logOut();
 

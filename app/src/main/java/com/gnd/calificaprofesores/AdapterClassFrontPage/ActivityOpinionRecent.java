@@ -122,12 +122,12 @@ public class ActivityOpinionRecent extends Fragment {
         }
         commentsModified.clear();
         for (CourseComment comment : comments){
-            if (comment.getAuthor().equals("CEITBA")){
+            if (comment.getAuthor().equals("Ceitba Ceitba")){
                 commentsModified.add(comment);
             }
         }
         for (CourseComment comment : comments){
-            if (!comment.getAuthor().equals("CEITBA")){
+            if (!comment.getAuthor().equals("Ceitba Ceitba")){
                 commentsModified.add(comment);
             }
         }

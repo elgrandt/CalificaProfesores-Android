@@ -81,7 +81,7 @@ public class ActivityOpinarMateria extends AppCompatActivity {
         adapter.AddElement(
                 new TitleData("EN PALABRAS")
         );
-        sendText = new EditTextData("Comentario ...");
+        sendText = new EditTextData("Ej.: Tiene 2 parciales, el primero es más difícil!");
         adapter.AddElement(
                 sendText
         );

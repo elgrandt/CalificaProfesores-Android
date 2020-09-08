@@ -76,7 +76,7 @@ public class ActivityAddProf extends AppCompatActivity {
             }
         };
 
-        profInput = new InputLineTextData("Profesor ...","Nombre Apellido");
+        profInput = new InputLineTextData("Profesor ...","Apellido Nombre");
         adapter.AddElement(profInput);
 
         adapter.AddElement(new TitleData("SELECCIONAR MATERIAS"));

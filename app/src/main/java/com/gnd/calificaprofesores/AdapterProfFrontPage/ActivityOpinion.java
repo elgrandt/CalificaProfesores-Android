@@ -84,13 +84,13 @@ public class ActivityOpinion extends Fragment {
 
 
         for (UserProfComment com : comment){
-            if (com.getAuthor().equals("CEITBA")){
+            if (com.getAuthor().equals("Ceitba Ceitba")){
                 commentAct.add(com);
             }
         }
 
         for (UserProfComment com : comment){
-            if (!com.getAuthor().equals("CEITBA")){
+            if (!com.getAuthor().equals("Ceitba Ceitba")){
                 commentAct.add(com);
             }
         }

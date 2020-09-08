@@ -78,7 +78,7 @@ public class ActivityYourOpinion extends Fragment {
 
         buttonSend.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+                public void onClick(View v) {
                 Intent intent = CourseManager.ConvertIntent(mView.getContext(), ActivityOpinarMateria.class ).GetIntent();
                 intent.putExtra("PrevComment", false);
                 startActivity(intent);

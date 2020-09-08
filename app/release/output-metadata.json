@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.calificaprofesores",
+  "applicationId": "com.v2.ceitbapp",
   "variantName": "release",
   "elements": [
     {
@@ -16,10 +16,19 @@
         }
       ],
       "properties": [],
-      "versionCode": 20,
+      "versionCode": 25,
       "versionName": "1.6",
       "enabled": true,
       "outputFile": "app-armeabi-v7a-release.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [],
+      "properties": [],
+      "versionCode": 25,
+      "versionName": "1.6",
+      "enabled": true,
+      "outputFile": "app-universal-release.apk"
     },
     {
       "type": "ONE_OF_MANY",
@@ -30,19 +39,10 @@
         }
       ],
       "properties": [],
-      "versionCode": 20,
+      "versionCode": 25,
       "versionName": "1.6",
       "enabled": true,
       "outputFile": "app-x86-release.apk"
-    },
-    {
-      "type": "ONE_OF_MANY",
-      "filters": [],
-      "properties": [],
-      "versionCode": 20,
-      "versionName": "1.6",
-      "enabled": true,
-      "outputFile": "app-universal-release.apk"
     }
   ]
 }

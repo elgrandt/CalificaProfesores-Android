@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.gnd.calificaprofesores.IntentsManager.IntentProfManager;
 import com.gnd.calificaprofesores.NetworkHandler.UserDataManager;
@@ -21,6 +22,7 @@ import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.ShownQualData
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.StarsData;
 import com.gnd.calificaprofesores.RecyclerForClassFrontPageCapital.TitleData;
 
+import android.widget.Toast;
 /** layout asociado: layout_recycler_view.xml **/
 
 public class ActivityProfFrontPageCapital extends Fragment {
@@ -72,6 +74,7 @@ public class ActivityProfFrontPageCapital extends Fragment {
         });
 
         profCommentsDataManager.RequestProfQual();
+
 
         return mView;
 

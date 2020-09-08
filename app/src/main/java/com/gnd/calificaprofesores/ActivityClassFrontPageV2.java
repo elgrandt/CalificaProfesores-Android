@@ -7,6 +7,7 @@ import android.os.Bundle;
 import androidx.appcompat.widget.Toolbar;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.astuetz.PagerSlidingTabStrip;
 
@@ -79,6 +80,8 @@ public class ActivityClassFrontPageV2 extends AppCompatActivity {
                 this,
                 (MaterialMenuView)findViewById(R.id.MaterialMenuButton),
                 (DrawerLayout)findViewById(R.id.DrawerLayout));
+
+        Toast.makeText(this, "Compartí tu experiencia en la materia! Por ejemplo, cuantos parciales tiene, ¿Tiene Tp? ¿Qué parcial te pareció más complicado?", Toast.LENGTH_LONG).show();
 
     }
     @Override

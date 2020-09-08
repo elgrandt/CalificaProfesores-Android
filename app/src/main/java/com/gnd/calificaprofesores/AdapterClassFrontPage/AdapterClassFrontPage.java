@@ -9,7 +9,7 @@ public class AdapterClassFrontPage extends FragmentPagerAdapter  {
 
     private final String[] TITLES = {
             "VISTA GENERAL",
-            "OPINIONES RECIENTES",
+            "COMENTARIOS Y TIPS",
             "TU OPINIÓN"}; // Opiniones importantes para futuro
 
 

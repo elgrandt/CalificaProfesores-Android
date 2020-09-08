@@ -8,8 +8,9 @@ import androidx.fragment.app.FragmentPagerAdapter;
 public class AdapterProfFrontPage extends FragmentPagerAdapter {
     private final String[] TITLES = {
             "VISTA GENERAL",
-            "OPINIONES RECIENTES",
-            "TU OPINIÓN"}; // Opiniones importantes para futuro
+            "COMENTARIOS",
+            "TU OPINIÓN"
+    }; // Opiniones importantes para futuro
 
     public AdapterProfFrontPage(FragmentManager fm) {
         super(fm);

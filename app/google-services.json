@@ -15,6 +15,22 @@
       },
       "oauth_client": [
         {
+          "client_id": "508894744809-vpethgppoej46gb07mh2ejkcqr4fqhus.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.calificaprofesores",
+            "certificate_hash": "e4728ea6425a0daa5a25c8f49ca44bfc83003357"
+          }
+        },
+        {
+          "client_id": "508894744809-9vk59na9kieqrmu0263tlc6pv9l2iloc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.calificaprofesores",
+            "certificate_hash": "9138284260d5cbcb24a08a90d5bcdf7573ffef26"
+          }
+        },
+        {
           "client_id": "508894744809-cn930tagtbihv94tpf9t06higef4v7sh.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -22,6 +38,72 @@
             "certificate_hash": "00d89abc14230580e426ab888db2ff12f44747df"
           }
         },
+        {
+          "client_id": "508894744809-02dqb526bonk89k9ugs33dgv2852edp3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW88751E2t7lFv9uEa8ceZdjJDdDJI_-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508894744809-02dqb526bonk89k9ugs33dgv2852edp3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508894744809:android:25bdd33b5a06158325a078",
+        "android_client_info": {
+          "package_name": "com.ceitbapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508894744809-3d3d467imb3boshhl9k8pgac0p5e4s2b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ceitbapp",
+            "certificate_hash": "00d89abc14230580e426ab888db2ff12f44747df"
+          }
+        },
+        {
+          "client_id": "508894744809-02dqb526bonk89k9ugs33dgv2852edp3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW88751E2t7lFv9uEa8ceZdjJDdDJI_-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508894744809-02dqb526bonk89k9ugs33dgv2852edp3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508894744809:android:402f5a0f4221f70e25a078",
+        "android_client_info": {
+          "package_name": "com.v2.ceitbapp"
+        }
+      },
+      "oauth_client": [
         {
           "client_id": "508894744809-02dqb526bonk89k9ugs33dgv2852edp3.apps.googleusercontent.com",
           "client_type": 3
